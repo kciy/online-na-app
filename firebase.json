@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/online-na-app",
     "ignore": [
       "firebase.json",
       "**/.*",
