@@ -2,3 +2,19 @@
     padding: 64px 14px 0;
     font-family: Lato;
 }
+
+.img-container {
+    margin: 0 auto;
+}
+
+.img-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .img-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
