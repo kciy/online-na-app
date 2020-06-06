@@ -1,0 +1,26 @@
+@import '../../../styles.scss';
+
+.page {
+    padding: 64px 14px 0;
+    font-family: Lato;
+}
+
+.container {
+    background: #ddd; //$bg-white;
+    margin: 16px auto;
+    min-height: 40px;
+    max-width: 60%;
+    padding: 4px 16px;
+}
+
+.diagram-container {
+    background: #eee;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        min-width: 90%;
+    }
+}
