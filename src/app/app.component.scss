@@ -1,0 +1,79 @@
+@import '../styles.scss';
+
+/* Fonts */
+@font-face {
+  font-family: "Kelson";
+  src: url("../assets/KelsonSans-Normal.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../assets/Lato-Regular.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* styles */
+.page {
+  padding: 64px 14px 0;
+  font-family: Lato;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Kelson;
+}
+
+.topnav {
+  position: relative;
+  background-color: rgb(85, 85, 85);
+  overflow: hidden;
+  border-bottom: 2px $esn-pink solid;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.topnav a {
+  float: left;
+  color: $text-gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: $text-white;
+}
+
+.topnav a.active {
+  color: $text-white;
+}
+
+@media screen and (max-width: 600px) {
+  // .topnav a,
+  // .topnav-right {
+  //   float: none;
+  //   display: block;
+  // }
+
+  // .topnav-centered a {
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  //   transform: none;
+  // }
+}
