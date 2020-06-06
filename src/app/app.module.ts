@@ -6,15 +6,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LivePageComponent } from './pages/live-page/live-page.component';
+import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 import { PagesModule } from './pages/pages.module';
 import { FormsModule } from '@angular/forms';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatCardModule } from '@angular/material/card';
+import { VotingPageComponent } from './pages/voting-page/voting-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    LivePageComponent
+    LivePageComponent,
+    NotFoundPageComponent,
+    VotingPageComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +27,8 @@ import { MatMenuModule } from '@angular/material/menu';
     BrowserAnimationsModule,
     FormsModule,
     PagesModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
