@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePageComponent } from './pages/home-page/home-page.component';
-import { LivePageComponent } from './pages/live-page/live-page.component';
-import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
-import { VotingPageComponent } from './pages/voting-page/voting-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { LivePageComponent } from './live-page/live-page.component';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { VotingPageComponent } from './voting-page/voting-page.component';
 
 const routes: Routes = [
   { path: 'live', component: LivePageComponent },
@@ -14,7 +14,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { enableTracing: false})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

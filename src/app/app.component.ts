@@ -1,19 +1,13 @@
-import { Component, ViewChild } from '@angular/core';
-import { ThemePalette } from '@angular/material/core';
-import { MatMenuModule, MatMenuTrigger, MatMenu } from '@angular/material/menu'; 
-import { MatIconRegistry } from '@angular/material/icon';
-import { Router } from '@angular/router';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit, OnDestroy {
   title = 'online-na-app';
-  @ViewChild(MatMenuTrigger) trigger: MatMenuTrigger;
   
-  trig() {
-    this.trigger.openMenu();
-  }
+  ngOnInit(): void {}
+  ngOnDestroy(): void {}
 }
