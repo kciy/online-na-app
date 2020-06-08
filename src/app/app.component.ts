@@ -8,6 +8,9 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 export class AppComponent implements OnInit, OnDestroy {
   title = 'online-na-app';
   
+  constructor() {}
+
   ngOnInit(): void {}
+
   ngOnDestroy(): void {}
 }
