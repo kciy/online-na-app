@@ -11,6 +11,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { LivePageComponent } from './live-page/live-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { VotingPageComponent } from './voting-page/voting-page.component';
+import { DocumentsPageComponent } from './documents-page/documents-page.component';
 
 @NgModule({
   imports: [
@@ -27,6 +28,7 @@ import { VotingPageComponent } from './voting-page/voting-page.component';
     LivePageComponent,
     NotFoundPageComponent,
     VotingPageComponent,
+    DocumentsPageComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
