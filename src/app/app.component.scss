@@ -1,4 +1,4 @@
-@import '../styles.scss';
+@import "../styles.scss";
 
 /* Fonts */
 @font-face {
@@ -9,10 +9,10 @@
 }
 
 @font-face {
-    font-family: "Lato";
-    src: url("../assets/Lato-Regular.ttf");
-    font-style: normal;
-    font-weight: 500;
+  font-family: "Lato";
+  src: url("../assets/Lato-Regular.ttf");
+  font-style: normal;
+  font-weight: 500;
 }
 
 /* styles */
@@ -26,9 +26,7 @@
   flex-direction: column;
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
 }
 
 body {
@@ -62,6 +60,7 @@ body {
 .topnav a.active {
   color: $text-white;
 }
+
 
 @media screen and (max-width: 600px) {
   // .topnav a,

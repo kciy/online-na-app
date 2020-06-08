@@ -1,5 +1,5 @@
 .page {
-    padding: 64px 14px 0;
+    padding: 64px 0 0 0;
     font-family: Lato;
 }
 
@@ -27,15 +27,35 @@
 }
 
 .card {
-    width: 300px;
-    margin: 8px;
-    background: #ddd;
-    padding: 16px;
+    margin: 16px;
+    min-width: 330px;
 }
+
+.footer-container {
+    // display: inline-block;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    clear: both;
+    min-height: 96px;
+    width: 100%;
+    background:  #fcfcfc;
+    text-align: center;
+    font-family: Lato;
+    overflow: hidden;
+  }
+  
+  .footer-text {
+    margin-top: 0;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+  }
 
 @media screen and (max-width: 600px) {
     .img-container img {
-        width: 100%;
+        width: 60%;
         height: 100%;
     }
 
@@ -43,9 +63,10 @@
         flex-direction: column;
         width: 90%;
     }
-
+    
     .card {
-        margin: 4px;
-        padding: 8px;
+        margin: 4px 0;
+        width: 90%;
+        min-width: 0;
     }
 }

@@ -1,16 +1,22 @@
 @import '../../styles.scss';
 
 .page {
-    padding: 64px 14px 0;
+    padding: 64px 0 0 0;
     font-family: Lato;
 }
 
-.container {
-    background: #ddd; //$bg-white;
+.card-container {
     margin: 16px auto;
     min-height: 40px;
     max-width: 60%;
-    padding: 4px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    margin: 16px;
+    min-width: 330px;
 }
 
 .diagram-container {
@@ -19,8 +25,40 @@
     padding: 4px;
 }
 
+.footer-container {
+    // display: inline-block;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    clear: both;
+    min-height: 96px;
+    width: 100%;
+    background:  #fcfcfc;
+    text-align: center;
+    font-family: Lato;
+    overflow: hidden;
+  }
+
+  
+  .footer-text {
+    margin-top: 0;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+  }
+  
+
 @media screen and (max-width: 600px) {
-    .container {
-        min-width: 90%;
+    .card-container {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+    }
+    
+    .card {
+        margin: 4px 0;
+        width: 90%;
+        min-width: 0;
     }
 }

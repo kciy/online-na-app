@@ -2,3 +2,26 @@
     padding: 64px 14px 0;
     font-family: Lato;
 }
+
+.footer-container {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  clear: both;
+  min-height: 96px;
+  width: 100%;
+  background:  #fcfcfc;
+  text-align: center;
+  font-family: Lato;
+  overflow: hidden;
+  }
+  
+  .footer-text {
+    margin-top: 0;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+  }
+  

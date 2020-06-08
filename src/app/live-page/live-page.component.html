@@ -1,5 +1,38 @@
 <div class="page">
     <div class="vid-container">
-        <iframe width="560" height="340" src="https://www.youtube.com/embed/j3MA0RFvuZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This browser does not support iframe.</iframe>
+        <iframe width="560" height="340" src="https://www.youtube.com/embed/j3MA0RFvuZU" frameborder="0"
+            allowfullscreen>This browser does not support iframe.</iframe>
+    </div>
+    <div class="tabs-container">
+        <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+            <mat-tab label="Live Agenda">
+                <mat-card class="agenda-card">
+                    <mat-card-title><span class="material-icons live">live_tv</span>
+                        14:00 - 14:15 Welcome from the President</mat-card-title>
+                    <mat-card-subtitle class="not-live">Speaker: Pedro González</mat-card-subtitle>
+                </mat-card>
+                <mat-card class="agenda-card">
+                    <mat-card-title class="not-live">14:15 - 14:30 Rules & Procedures</mat-card-title>
+                    <mat-card-subtitle class="not-live">Speaker: CT</mat-card-subtitle>
+                </mat-card>
+                <mat-card class="agenda-card">
+                    <mat-card-title class="not-live">14:30 - 14:40 Some super important topic</mat-card-title>
+                    <mat-card-subtitle class="not-live">Speaker: Some person</mat-card-subtitle>
+                </mat-card>
+            </mat-tab>
+            <mat-tab label="How to ask a question">
+                <h2>Guide</h2>
+                <p>slack guide</p>
+            </mat-tab>
+            <mat-tab label="Socialize">
+                <h2>Want to meet the others?</h2>
+                <p>Link to Discord</p>
+                <p>How to join the pubquiz</p>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+    <div class="footer-container">
+        <img height="96px" src="../assets/DE_colour.png" alt="ESN Germany Logo">
+        <p class="footer-text">© IT-Team ESN Germany e.V.</p>
     </div>
 </div>
