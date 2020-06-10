@@ -30,6 +30,22 @@
     margin-left: 18px;
 }
 
+.panel-container {
+    overflow: auto;
+}
+
+.panel-img {
+    float: left;
+}
+
+.panel-img img {
+    display: block;
+}
+
+.panel-img a {
+    margin-left: 24px;
+}
+
 .icon {
     font-size: 14px;
 }
