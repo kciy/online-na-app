@@ -24,13 +24,19 @@
     margin-top: 24px;
     margin-bottom: 2px;
     max-width: 600px;
-    min-width: 450px;
+    min-width: 35%;
     background: #fcfcfc;
     text-align: left;
 }
 
 .live {
     color: red;
+}
+
+.live-placeholder {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
 }
 
 .not-live {
@@ -60,6 +66,13 @@
     text-decoration: none;
   }  
 
+  .guide {
+      text-align: left;
+      width: 35%;
+      margin: 0 auto;
+      margin-top: 32px;
+  }
+
 @media screen and (max-width: 600px) {
     .page {
         padding-top: 128px;
@@ -70,5 +83,9 @@
 
     .card-mobile-title {
         font-size: 20px !important;
+    }
+
+    .guide {
+        width: 90%;
     }
 }

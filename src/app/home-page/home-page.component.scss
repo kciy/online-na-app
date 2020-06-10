@@ -76,6 +76,14 @@
     max-width: 100%;
 }
 
+.icon {
+    font-size: 14px;
+}
+
+.mat-card-container {
+    margin-bottom: 64px;
+}
+
 @media screen and (max-width: 1270px) {
     .page {
         padding-top: 128px;
@@ -89,6 +97,7 @@
     .card-content {
         flex-direction: column;
         width: 90%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
