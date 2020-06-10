@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "on-air2020"
+  },
+  "targets": {
+    "on-air2020": {
+      "hosting": {
+        "online-na-app": [
+          "on-air2020"
+        ]
+      }
+    }
   }
 }
