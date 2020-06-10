@@ -51,7 +51,7 @@ function voting() {
   ctx.canvas.width = window.innerWidth;
   ctx.canvas.height = window.innerHeight;
 
-  var chartData = [0, 1]; // Keep global for later update
+  var chartData = [0]; // Keep global for later update
 
   var chart = new Chart(ctx, {
     // The type of chart we want to create
@@ -61,11 +61,6 @@ function voting() {
     data: {
       labels: ['Submitted Votes'],
       datasets: [{
-        backgroundColor: ['#7AC143'],
-        borderColor: ['#7AC143'],
-        data: [5, 6]
-      },
-      {
         backgroundColor: ['#7AC143'],
         borderColor: ['#7AC143'],
         data: chartData
@@ -81,7 +76,7 @@ function voting() {
         yAxes: [{
           ticks: {
             beginAtZero: true,
-            max: 50
+            max: 40
           }
         }]
       }
@@ -94,20 +89,22 @@ function voting() {
     if (!chart.allTooltipsOnce) return;
 
     // Prepare request
-    var requestURL = 'https://vote.esn-germany.de/status/index.php?ajax&n=375289';
+    var requestURL = 'https://vote.esn-germany.de/results';
     var request = new XMLHttpRequest({
       mozSystem: true
     });
 
     // Callback function
-    // Update graph
-    chartData = [5, 8];
-    chartData[1] = 4;
-
-    chart.update();
     request.onreadystatechange = function () {
       if (request.readyState == 4 && request.status == 200) {
         var jsonData = JSON.parse(request.responseText);
+        
+        // Update graph
+        // chartData[0] = jsonData;
+        chartData[0] = 5;
+        // console.log(jsonData);
+        
+        chart.update();
       }
     }
 
