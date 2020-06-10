@@ -32,7 +32,9 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
-            "scripts": ["voting.js"],
+            "scripts": [
+              "voting.js"
+            ],
             "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
@@ -129,8 +131,13 @@
               "devServerTarget": "online-na-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "online-na-app"
 }
