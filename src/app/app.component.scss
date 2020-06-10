@@ -3,22 +3,17 @@
 /* Fonts */
 @font-face {
   font-family: "Kelson";
-  src: url("../assets/KelsonSans-Normal.otf");
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("../assets/Lato-Regular.ttf");
+  src: url("../assets/fonts/KelsonSans-Normal.otf");
   font-style: normal;
   font-weight: 500;
 }
 
 /* styles */
+body {
+  font-family: Kelson;
+}
 .page {
   padding: 64px 14px 0;
-  font-family: Lato;
 }
 
 .app-container {
@@ -31,7 +26,6 @@
 
 body {
   margin: 0;
-  font-family: Kelson;
 }
 
 .topnav {
