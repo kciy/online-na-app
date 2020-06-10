@@ -12,6 +12,7 @@ import { LivePageComponent } from './live-page/live-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { VotingPageComponent } from './voting-page/voting-page.component';
 import { DocumentsPageComponent } from './documents-page/documents-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
@@ -21,6 +22,7 @@ import { DocumentsPageComponent } from './documents-page/documents-page.componen
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     SharedModule,
+    HttpClientModule
   ],
   declarations: [
     AppComponent,
