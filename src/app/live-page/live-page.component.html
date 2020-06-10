@@ -7,7 +7,7 @@
         <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
             <mat-tab label="Live Agenda">
                 <mat-card class="agenda-card">
-                    <mat-card-title class="card-mobile-title"><span class="material-icons live">live_tv</span>
+                    <mat-card-title class="card-mobile-title"><mat-icon class="icon live">live_tv</mat-icon>
                         14:00 - 14:15 Welcome from the President</mat-card-title>
                     <mat-card-subtitle class="not-live">Speaker: Pedro González</mat-card-subtitle>
                 </mat-card>
@@ -16,18 +16,34 @@
                     <mat-card-subtitle class="not-live">Speaker: CT</mat-card-subtitle>
                 </mat-card>
                 <mat-card class="agenda-card">
-                    <mat-card-title class="not-live card-mobile-title">14:30 - 14:40 Some super important topic</mat-card-title>
+                    <mat-card-title class="not-live card-mobile-title">14:30 - 14:40 Some super important topic
+                    </mat-card-title>
                     <mat-card-subtitle class="not-live">Speaker: Some person</mat-card-subtitle>
                 </mat-card>
             </mat-tab>
             <mat-tab label="How to ask a question">
-                <h2>Guide</h2>
-                <p>slack guide</p>
+                <div class="guide">
+                    <p>1. Join the slack channel #on-air2020 in the ESN Germany Slack Workspace</p>
+                    <p>2. Make one post per question. Direct your question by adding a [@legal team] to your question.
+                    </p>
+                    <p>3. Wait for the CT to put an emoji on your question:</p>
+                    <ul>
+                        <li>Check: question will be read in the conference</li>
+                        <li>Cross: question rejected and will not be read</li>
+                        <li>Repeat: question has already been asked</li>
+                        <li>Soon: question will be read soon in the conference</li>
+                    </ul>
+                </div>
             </mat-tab>
             <mat-tab label="Socialise">
-                <h2>Want to meet the others?</h2>
-                <p>Link to Discord</p>
+                <h3>Meet the other listeners!</h3>
+                <p>WhatsApp group</p>
+                <p>Slack Channel</p>
+                <p>Discord</p>
                 <p>How to join the pubquiz</p>
+                <p>Facebook</p>
+                <p>In person</p>
+                <p>...</p>
             </mat-tab>
         </mat-tab-group>
     </div>
