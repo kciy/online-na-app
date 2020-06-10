@@ -53,12 +53,22 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
+.topnav-centered a {
+  line-height: 2em;
+}
+
 .topnav a:hover {
   color: $text-white;
 }
 
 .topnav a.active {
   color: $text-white;
+}
+
+.star {
+  padding-right: 14px;
+  vertical-align: -8px;
 }
 
 
