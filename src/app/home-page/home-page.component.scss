@@ -1,3 +1,5 @@
+@import "../../styles.scss";
+
 .page {
     padding: 64px 0 0 0;
     font-family: Lato;
@@ -21,16 +23,10 @@
 
 .card-container {
     margin: 0 auto;
+    margin-top: 64px;
     margin-bottom: 32px;
-    max-width: 90%;
-}
-
-.card {
-    margin: 16px;
-    padding: 32px;
-    width: 30%;
-    margin-top: auto !important;
-    margin-bottom: auto !important;
+    max-width: 60%;
+    display: block;
 }
 
 .card-content {
@@ -39,27 +35,46 @@
     justify-content: space-between;
 }
 
-.minor-title {
-    font-size: 20px !important;
-}
-
 .footer-container {
     clear: both;
     min-height: 96px;
     width: 100%;
-    background:  #fcfcfc;
+    background: #fcfcfc;
     text-align: center;
     font-family: Lato;
     overflow: hidden;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     margin-top: 0;
-  }
-  
-  .link {
+}
+
+.link {
     text-decoration: none;
-  }
+}
+
+.ct-container {
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.accordion-container {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.panel-content {
+    margin-left: 18px;
+}
+
+.img {
+    line-height: 2em;
+}
+
+.ct-img {
+    max-width: 100%;
+}
 
 @media screen and (max-width: 1270px) {
     .page {
@@ -70,12 +85,13 @@
         height: 100%;
     }
 
-    .card-container, .card-content {
+    .card-container,
+    .card-content {
         flex-direction: column;
         width: 90%;
         margin: 0 auto;
     }
-    
+
     .card {
         margin: 4px 0;
         width: 90%;

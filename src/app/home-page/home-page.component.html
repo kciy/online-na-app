@@ -7,45 +7,61 @@
         <h2>27th - 28th June 2020</h2>
     </div>
     <div class="card-container">
-        <mat-card class="card-container">
+        <h2>To Do List</h2>
+        <mat-accordion multi="true" class="accordion-container">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    Send Vote Delegation (25th June 2020, 23:59h)
+                </mat-expansion-panel-header>
+                <div class="panel-content">
+                    <p>Send the following text to <a href="mailto:np-chair@esn-germany.de" target="_blank" class="link">np-chair@esn-germany.de</a>:</p>
+                    <i>"I, [Name of the section president/local representative], president of ESN [Name of the section], delegate our vote for each and every vote that will occur during the National Assembly "oN Air" from the 27th-28th of June to [Name of the delegate], [Member's position] of ESN [Name of the Section]."</i>
+                </div>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    If you want to hand in a proposal (20th June 2020, 23:59h)
+                </mat-expansion-panel-header>
+                <div class="panel-content">
+                    <p>Use the <a href="https://docs.google.com/document/d/1L7YlkLP5hwHJNa-YFVf94PcyeV7kQEnbiiafll9G6e0/edit?usp=sharing" class="link" target="_blank">template</a> and send your proposal to the Chairing Team and National Board (<a href="mailto:np-chair@esn-germany.de" target="_blank" class="link">np-chair@esn-germany.de</a> & <a href="mailto:board@esn-germany.de" target="_blank" class="link">board@esn-germany.de</a>).</p>
+                </div>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    Join the social media channels
+                </mat-expansion-panel-header>
+                <div class="panel-content">
+                    <p><img width="17" src="../../assets/whatsapp.png" alt="whatsapp"> WhatsApp spam group: <a href="https://chat.whatsapp.com/KfaGwYDG9x4H01H9hZbp9s" target="_blank" class="link">Take me there!</a></p>
+                    <p><img width="17" src="../../assets/slack.png" alt="slack"> onAirSlack: <a href="https://join.slack.com/share/zt-evwuqagm-3cPmKd003BPuSuo5xRF3aQ" target="_blank" class="link">Take me there!</a></p>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-card>
             <mat-card-title-group>
                 <mat-card-title>Chairing Team</mat-card-title>
                 <mat-card-subtitle>Coordination, Minutes & Moderation</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content class="card-content">
-                <mat-card class="card">
-                    <mat-card-title-group>
-                        <mat-card-title class="minor-title">Julius Gonsior</mat-card-title>
-                        <mat-card-subtitle>Main Chair</mat-card-subtitle>
-                        <span class="material-icons">face</span>
-                    </mat-card-title-group>
-                    <mat-card-content>
-                        <img width="250" height="250" src="../../assets/julius.jpg" alt="Julius Gonsior">
-                        <p>ESN TU Dresden</p>
-                    </mat-card-content>
-                </mat-card>
-                <mat-card class="card">
-                    <mat-card-title-group>
-                        <mat-card-title class="minor-title">Duje Ercegović</mat-card-title>
-                        <mat-card-subtitle>Vice Chair</mat-card-subtitle>
-                        <span class="material-icons">face</span>
-                    </mat-card-title-group>
-                    <mat-card-content>
-                        <img width="250" height="250" src="../../assets/Duje.jpg" alt="Duje Ercegović">
-                        <p>ESN Split</p>
-                    </mat-card-content>
-                </mat-card>
-                <mat-card class="card">
-                    <mat-card-title-group>
-                        <mat-card-title class="minor-title">Jana Borchardt</mat-card-title>
-                        <mat-card-subtitle>Speaker's List Assistant</mat-card-subtitle>
-                        <span class="material-icons">list</span>
-                    </mat-card-title-group>
-                    <mat-card-content>
-                        <img width="250" height="250" src="../../assets/Jana-min.jpg" alt="Jana Borchardt">
-                        <p>ESN IPAS Landau</p>
-                    </mat-card-content>
-                </mat-card>
+                <div class="ct-container">
+                    <h3>Julius Gonsior</h3>
+                    <p>Main Chair</p>
+                    <img class="ct-img" src="../../assets/julius.jpg" alt="Jana Borchardt">
+                    <p>ESN TU Dresden</p>
+                </div>
+                <mat-divider [vertical]="true"></mat-divider>
+                <div class="ct-container">
+                    <h3>Duje Ercegović</h3>
+                    <p>Vice Chair</p>
+                    <img class="ct-img" src="../../assets/Duje.jpg" alt="Jana Borchardt">
+                    <p>ESN Split</p>
+                </div>
+                <mat-divider [vertical]="true"></mat-divider>
+                <div class="ct-container">
+                    <h3>Jana Borchardt</h3>
+                    <p>Speaker's List Assistant</p>
+                    <img class="ct-img" src="../../assets/jana.jpg" alt="Jana Borchardt">
+                    <p>ESN IPAS Landau</p>
+                </div>
             </mat-card-content>
         </mat-card>
     </div>
