@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>ESN Germany - oN Air 2020</title>
@@ -10,10 +11,33 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta name="theme-color" content="#1976d2">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAv9hQBWoVjgbjwzcZ5RwdYK2d-3jeaxbc",
+      authDomain: "on-air2020.firebaseapp.com",
+      databaseURL: "https://on-air2020.firebaseio.com",
+      projectId: "on-air2020",
+      storageBucket: "on-air2020.appspot.com",
+      messagingSenderId: "1024117313329",
+      appId: "1:1024117313329:web:3e94290dcd3786422bea10",
+      measurementId: "G-L4BXTPRV2C"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
   <app-root></app-root>
 </body>

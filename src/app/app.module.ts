@@ -13,6 +13,7 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
 import { VotingPageComponent } from './voting-page/voting-page.component';
 import { DocumentsPageComponent } from './documents-page/documents-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 
 @NgModule({
   imports: [
@@ -31,6 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     NotFoundPageComponent,
     VotingPageComponent,
     DocumentsPageComponent,
+    AgendaExplorerComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
