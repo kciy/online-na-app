@@ -1,0 +1,37 @@
+.tabs-container {
+    margin: 0 auto;
+    margin-top: 32px;
+    display: block;
+    text-align: center;
+}
+
+.agenda-card {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 2px;
+    min-width: 40%;
+    background: #fcfcfc;
+    text-align: left;
+}
+
+.live {
+    color: red;
+}
+
+.live-placeholder {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.not-live {
+    padding-left: 32px;
+}
+
+.link-container {
+    margin: 16px;
+}
+.link {
+    text-decoration: none;
+}
