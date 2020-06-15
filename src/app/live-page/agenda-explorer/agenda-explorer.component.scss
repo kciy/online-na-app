@@ -19,6 +19,11 @@
     color: red;
 }
 
+.title {
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
 .live-placeholder {
     display: inline-block;
     width: 24px;
@@ -30,7 +35,8 @@
 }
 
 .link-container {
-    margin: 16px;
+    margin-top: 48px;
+    margin-bottom: 32px;
 }
 .link {
     text-decoration: none;

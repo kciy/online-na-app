@@ -1,14 +1,19 @@
 <mat-card *ngIf="(currentItem | async)?.start" class="agenda-card">
-    <mat-progress-bar [value]="(currentItem | async)?.progress"></mat-progress-bar>
-    <mat-card-title class="card-mobile-title"><mat-icon class="icon live">live_tv</mat-icon>
-        Until {{ (currentItem | async)?.end | date: 'shortTime' }} {{ (currentItem | async)?.topic }}</mat-card-title>
+    <mat-card-title class="card-mobile-title title">
+        <mat-icon class="icon live">live_tv</mat-icon>
+        Until {{ (currentItem | async)?.end | date: 'shortTime' }}: <b>{{ (currentItem | async)?.topic }}</b>
+    </mat-card-title>
     <mat-card-subtitle class="not-live">Speaker: {{ (currentItem | async)?.speaker }}</mat-card-subtitle>
+    <mat-card-subtitle class="not-live">Type: {{ (currentItem | async)?.type }}</mat-card-subtitle>
 </mat-card>
 <mat-card *ngIf="(nextItem | async)?.start" class="agenda-card">
-    <mat-card-title class="not-live card-mobile-title">{{ (nextItem | async)?.start | date: 'short' }} -
-        {{ (nextItem | async)?.end | date: 'shortTime' }} {{ (nextItem | async)?.topic }}</mat-card-title>
+    <mat-card-title class="not-live card-mobile-title title">Next up: {{ (nextItem | async)?.start | date: 'shortTime' }} to
+        {{ (nextItem | async)?.end | date: 'shortTime' }}: <b>{{ (nextItem | async)?.topic }}</b></mat-card-title>
     <mat-card-subtitle class="not-live">Speaker: {{ (nextItem | async)?.speaker }}</mat-card-subtitle>
+    <mat-card-subtitle class="not-live">Type: {{ (nextItem | async)?.type }}</mat-card-subtitle>
 </mat-card>
 <div class="link-container">
-    <a mat-stroked-button href="https://docs.google.com/spreadsheets/d/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/edit#gid=1221187808" target="_blank">Open full agenda</a>
+    <a class="link"
+        href="https://docs.google.com/spreadsheets/d/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/edit#gid=1221187808"
+        target="_blank">>> Open full agenda <<</a>
 </div>
