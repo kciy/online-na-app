@@ -19,27 +19,28 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    const options = { params: new HttpParams().set('key', ' AIzaSyC5Ntl3HEpQSuiiNfz4i3R-CnvKK25eqAg ')};
+    const options = { params: new HttpParams().set('key', 'AIzaSyC5Ntl3HEpQSuiiNfz4i3R-CnvKK25eqAg')};
     const saturdayRequest = this.http
       .get<{ values: any[]}>(
-        'https://docs.google.com/spreadsheets/d/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/edit#gid=1221187808&range=A3:H29',
+        'https://sheets.googleapis.com/v4/spreadsheets/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/values/Saturday!A2:H29',
         options
         )
         .pipe(retry(5));
         const sundayRequest = this.http
         .get<{ values: any[]}>(
-        'https://docs.google.com/spreadsheets/d/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/edit#gid=296047704&range=A3:H18',
+        'https://sheets.googleapis.com/v4/spreadsheets/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/values/Sunday!A2:H18',
         options
       )
       .pipe(retry(5));
 
       this.agenda = combineLatest([saturdayRequest, sundayRequest]).pipe(
-        map(requests => requests.map(request => request.values.slice(2))),
+        map(requests => requests.map(request => request.values.slice(1))),
         map(days => {
           const slots = [];
           days.forEach((items, index) =>
           items.forEach(item => {
             if (item[0]) {
+              console.log(index);
               slots.push({
                 start: moment('27.06.2020', 'DD.MM.YYYY')
                 .add(index, 'day')
@@ -49,15 +50,11 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
                 .add(index, 'day')
                 .hour(item[1].split(':')[0])
                 .minute(item[1].split(':')[1]),
-                topic: item[2],
-                speaker: item[3]
+                topic: item[3],
+                type: item[6],
+                speaker: item[7]
               });
-            } else {
-              slots[slots.length - 1].items.push({
-                topic: item[2],
-                speaker: item[3]
-              });
-            }
+            } 
           })
           );
           return slots;
@@ -106,4 +103,5 @@ interface Slot {
   duration?: string;
   topic: string;
   speaker: string;
+  type: string;
 }
