@@ -5,6 +5,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
 
 @NgModule({
     imports: [
@@ -13,7 +15,8 @@ import { MatTabsModule } from '@angular/material/tabs';
         MatDividerModule,
         MatExpansionModule,
         MatIconModule,
-        MatTabsModule
+        MatTabsModule,
+        MatProgressBarModule
     ],
     providers: [],
     exports: [
@@ -21,7 +24,8 @@ import { MatTabsModule } from '@angular/material/tabs';
         MatDividerModule,
         MatExpansionModule,
         MatIconModule,
-        MatTabsModule
+        MatTabsModule,
+        MatProgressBarModule
     ],
     declarations: [],
     entryComponents: []
