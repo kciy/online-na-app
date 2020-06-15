@@ -6,20 +6,7 @@
     <div class="tabs-container">
         <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
             <mat-tab label="Live Agenda">
-                <mat-card class="agenda-card">
-                    <mat-card-title class="card-mobile-title"><mat-icon class="icon live">live_tv</mat-icon>
-                        14:00 - 14:15 Welcome from the President</mat-card-title>
-                    <mat-card-subtitle class="not-live">Speaker: Pedro González</mat-card-subtitle>
-                </mat-card>
-                <mat-card class="agenda-card">
-                    <mat-card-title class="not-live card-mobile-title">14:15 - 14:30 Rules & Procedures</mat-card-title>
-                    <mat-card-subtitle class="not-live">Speaker: CT</mat-card-subtitle>
-                </mat-card>
-                <mat-card class="agenda-card">
-                    <mat-card-title class="not-live card-mobile-title">14:30 - 14:40 Some super important topic
-                    </mat-card-title>
-                    <mat-card-subtitle class="not-live">Speaker: Some person</mat-card-subtitle>
-                </mat-card>
+                <app-agenda-explorer></app-agenda-explorer>
             </mat-tab>
             <mat-tab label="How to ask a question">
                 <div class="guide">
@@ -47,7 +34,7 @@
             </mat-tab>
         </mat-tab-group>
     </div>
-    <div class="footer-container">
+        <div class="footer-container">
         <img height="96px" src="../assets/logo/DE_colour.png" alt="ESN Germany Logo">
         <p class="footer-text">© IT-Team ESN Germany e.V.</p>
     </div>
