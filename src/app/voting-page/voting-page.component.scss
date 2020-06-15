@@ -19,6 +19,30 @@
     min-width: 330px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-text {
+    padding: 16px;
+}
+
+.content-left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    // text-align: center;
+    // margin: auto;
+    // padding-top: 32px;
+}
+
+.divider {
+    padding-left: 8px;
+}
+
 .diagram-container {
     background: #eee;
     border: 1px solid black;
