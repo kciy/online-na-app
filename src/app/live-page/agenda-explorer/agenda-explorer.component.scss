@@ -1,3 +1,5 @@
+@import "../../../styles.scss";
+
 .tabs-container {
     margin: 0 auto;
     margin-top: 32px;
@@ -6,17 +8,30 @@
 }
 
 .agenda-card {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
-    margin-top: 24px;
-    margin-bottom: 2px;
     min-width: 40%;
+    max-width: 650px;
     background: #fcfcfc;
     text-align: left;
 }
 
+.live-card {
+    margin-bottom: 64px;
+}
+
+.pre-title {
+    min-width: 40%;
+    max-width: 650px;
+    text-align: left;
+    color: $text-gray;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
 .live {
     color: red;
+    vertical-align: bottom;
 }
 
 .title {
@@ -31,7 +46,7 @@
 }
 
 .not-live {
-    padding-left: 32px;
+    padding-left: 24px;
 }
 
 .link-container {

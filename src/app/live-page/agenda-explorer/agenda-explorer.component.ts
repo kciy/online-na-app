@@ -15,6 +15,7 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
   timer: Observable<number>;
   currentItem: Observable<Slot>;
   nextItem: Observable<Slot>;
+  secondNextItem: Observable<Slot>;
 
   longType(type: string) {
     switch (type) {
@@ -90,18 +91,44 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
     this.nextItem = this.timer.pipe(
       switchMap(_ => this.agenda),
       map(agenda => agenda.find(slot => slot.start > moment())),
+      map(slot => {
+        if (!slot) {
+          return null;
+        }
+        return Object.assign({}, slot, {
+          // duration: moment.duration(slot.start.diff(moment())).humanize(true)
+        });
+      })
     );
     this.currentItem = this.timer.pipe(
       switchMap(_ => this.agenda),
       map(agenda => agenda.find(slot => slot.start < moment() && slot.end > moment())),
+      map(slot => {
+        if (!slot) {
+          return null;
+        }
+        return Object.assign({}, slot, {
+          // progress: Math.round((moment().diff(slot.start) / slot.end.diff(slot.start)) * 100)
+        });
+      })
     );
+
+    this.secondNextItem = this.timer.pipe(
+      switchMap(_ => this.agenda),
+      map(agenda => agenda.filter(slot => slot.start > moment())[1]),
+      map(slot => {
+        if (!slot) {
+          return null;
+        }
+        return Object.assign({}, slot, {
+          // duration: moment.duration(slot.start.diff(moment())).humanize(true)
+        });
+      })
+    );
+
   }
   ngOnDestroy(): void {
     this.destroyed$.complete();
-  }
-
-  trackByTopic(index, item) {
-    return item.topic;
   }
 }
 
