@@ -27,6 +27,7 @@
     color: $text-gray;
     margin: 0 auto;
     margin-top: 24px;
+    margin-bottom: 18px;
 }
 
 .live {
@@ -55,4 +56,9 @@
 }
 .link {
     text-decoration: none;
+    color: black;
+}
+
+.icon {
+    vertical-align: text-top;
 }
