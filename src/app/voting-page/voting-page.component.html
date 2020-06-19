@@ -17,54 +17,17 @@
     <div class="card-container">
         <mat-card class="card">
             <mat-card-title-group>
-                <mat-card-title>Audit Board Elections</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
+                <mat-card-title>Election status</mat-card-title>
+                <mat-card-subtitle>Last updated at {{lastUpdate$|async|date:'mediumTime'}}</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content>
-                <canvas id="myChart"></canvas>
+                <div *ngFor="let result of results$ | async" style="margin-bottom: 4rem;">
+                    <h2>{{result.name}} <small style="color: gray">{{result.vote}} of {{result.total}} votes
+                        cast</small></h2>
+                    <mat-progress-bar [mode]="result.active?'buffer':'determinate'" [value]="result.progress"
+                                      style="height: 1rem;"></mat-progress-bar>
+                </div>
             </mat-card-content>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>Release of the NB 2019/20</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>SOS Changes</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>Action Plan 2020/21</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>Budget 2020/21</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>ISA Saarbrücken Application Full Membership</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>LEI Konstanz Application Candidate Section</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
-        </mat-card>
-        <mat-card class="card">
-            <mat-card-title-group>
-                <mat-card-title>Gemini Pforzheim Application Candidate Section</mat-card-title>
-                <mat-card-subtitle>Diagram with voting results...</mat-card-subtitle>
-            </mat-card-title-group>
         </mat-card>
     </div>
     <div class="footer-container">
