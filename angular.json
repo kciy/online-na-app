@@ -32,9 +32,7 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
-            "scripts": [
-              "voting.js"
-            ],
+            "scripts": [],
             "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
@@ -139,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "online-na-app"
+  "defaultProject": "online-na-app",
+  "cli": {
+    "analytics": false
+  }
 }
