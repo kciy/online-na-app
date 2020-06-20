@@ -3,9 +3,9 @@
         <mat-icon class="icon live">live_tv</mat-icon> Live
     </p>
     <mat-card class="agenda-card live-card">
-        <mat-card-title class="not-live card-mobile-title title">
-            {{ (currentItem | async)?.start | date: 'shortTime' }} to
-            {{ (currentItem | async)?.end | date: 'shortTime' }}: <b>{{ (currentItem | async)?.topic }}</b>
+        <mat-card-subtitle class="not-live">{{ (currentItem | async)?.start | date: 'shortTime' }} to
+            {{ (currentItem | async)?.end | date: 'shortTime' }}</mat-card-subtitle>
+        <mat-card-title class="not-live card-mobile-title title"><b>{{ (currentItem | async)?.topic }}</b>
         </mat-card-title>
         <mat-card-subtitle class="not-live">Speaker: {{ (currentItem | async)?.speaker }}</mat-card-subtitle>
         <mat-card-subtitle class="not-live">Type: {{ (currentItem | async)?.type }}</mat-card-subtitle>
@@ -14,9 +14,10 @@
     <div *ngIf="(nextItem | async)?.start">
         <p class="pre-title">Next up</p>
         <mat-card class="agenda-card">
-            <mat-card-title class="not-live card-mobile-title title">{{ (nextItem | async)?.start | date: 'shortTime' }}
+            <mat-card-subtitle class="not-live">{{ (nextItem | async)?.start | date: 'shortTime' }}
                 to
-                {{ (nextItem | async)?.end | date: 'shortTime' }}: <b>{{ (nextItem | async)?.topic }}</b>
+                {{ (nextItem | async)?.end | date: 'shortTime' }}</mat-card-subtitle>
+            <mat-card-title class="not-live card-mobile-title title"> <b>{{ (nextItem | async)?.topic }}</b>
             </mat-card-title>
             <mat-card-subtitle class="not-live">Speaker: {{ (nextItem | async)?.speaker }}</mat-card-subtitle>
             <mat-card-subtitle class="not-live">Type: {{ (nextItem | async)?.type }}</mat-card-subtitle>
@@ -24,9 +25,9 @@
     </div>
     <div *ngIf="(secondNextItem | async)?.start">
         <mat-card class="agenda-card">
-            <mat-card-title class="not-live card-mobile-title title">
-                {{ (secondNextItem | async)?.start | date: 'shortTime' }} to
-                {{ (secondNextItem | async)?.end | date: 'shortTime' }}: <b>{{ (secondNextItem | async)?.topic }}</b>
+            <mat-card-subtitle class="not-live">{{ (secondNextItem | async)?.start | date: 'shortTime' }} to
+                {{ (secondNextItem | async)?.end | date: 'shortTime' }}</mat-card-subtitle>
+            <mat-card-title class="not-live card-mobile-title title"><b>{{ (secondNextItem | async)?.topic }}</b>
             </mat-card-title>
             <mat-card-subtitle class="not-live">Speaker: {{ (secondNextItem | async)?.speaker }}</mat-card-subtitle>
             <mat-card-subtitle class="not-live">Type: {{ (secondNextItem | async)?.type }}</mat-card-subtitle>
