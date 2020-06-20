@@ -139,6 +139,7 @@
   },
   "defaultProject": "online-na-app",
   "cli": {
-    "analytics": false
+    "analytics": false,
+    "packageManager": "npm"
   }
 }
