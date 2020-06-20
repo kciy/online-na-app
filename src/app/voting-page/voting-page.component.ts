@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable, timer} from 'rxjs';
-import {map, switchMap} from 'rxjs/operators';
+import {map, shareReplay, switchMap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-voting-page',
@@ -17,10 +17,14 @@ export class VotingPageComponent {
       ...result,
       anonymized: result.anonymized === 'Y',
       active: result.active === 'Y',
-      progress: (result.total / result.vote) * 100
+      progress: (result.vote / result.total) * 100
     }))));
-    this.results$ = timer(0, 10000).pipe(switchMap(() => resultRequest));
+    this.results$ = timer(0, 10000).pipe(switchMap(() => resultRequest), shareReplay(1));
     this.lastUpdate$ = this.results$.pipe(map(() => new Date()));
+  }
+
+  trackById(index: number, item: Result) {
+    return item.id ?? index;
   }
 }
 
