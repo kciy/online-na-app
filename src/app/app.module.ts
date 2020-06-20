@@ -14,16 +14,19 @@ import {VotingPageComponent} from './voting-page/voting-page.component';
 import {DocumentsPageComponent} from './documents-page/documents-page.component';
 import {HttpClientModule} from '@angular/common/http';
 import {AgendaExplorerComponent} from './live-page/agenda-explorer/agenda-explorer.component';
+import {AngularFireModule} from "@angular/fire";
+import {AngularFireAnalyticsModule, ScreenTrackingService} from "@angular/fire/analytics";
 
 @NgModule({
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAnalyticsModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
+    HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     SharedModule,
-    HttpClientModule,
+    AppRoutingModule,
   ],
   declarations: [
     AppComponent,
@@ -34,8 +37,7 @@ import {AgendaExplorerComponent} from './live-page/agenda-explorer/agenda-explor
     DocumentsPageComponent,
     AgendaExplorerComponent,
   ],
-  providers: [],
-  bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  providers: [ScreenTrackingService],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -21,7 +21,7 @@
                 <mat-card-subtitle>Last updated at {{lastUpdate$|async|date:'mediumTime'}}</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content>
-                <div *ngFor="let result of results$ | async" style="margin-bottom: 4rem;">
+                <div *ngFor="let result of results$ | async; trackBy: trackById" style="margin-bottom: 4rem;">
                     <h2>{{result.name}} <small style="color: gray">{{result.vote}} of {{result.total}} votes
                         cast</small></h2>
                     <mat-progress-bar [mode]="result.active?'buffer':'determinate'" [value]="result.progress"
