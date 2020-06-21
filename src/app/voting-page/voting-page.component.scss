@@ -19,6 +19,19 @@
     min-width: 330px;
 }
 
+.elections {
+    display: flex;
+    flex-direction: column;
+
+    .result {
+        margin-bottom: 3rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
 .content {
     display: flex;
     justify-content: space-between;
