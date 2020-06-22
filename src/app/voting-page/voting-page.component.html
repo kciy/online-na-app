@@ -15,16 +15,18 @@
         </mat-card>
     </div>
     <div class="card-container">
-        <mat-card class="card">
+        <mat-card class="card elections">
             <mat-card-title-group>
                 <mat-card-title>Election status</mat-card-title>
                 <mat-card-subtitle>Last updated at {{lastUpdate$|async|date:'mediumTime'}}</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content>
-                <div *ngFor="let result of results$ | async; trackBy: trackById" style="margin-bottom: 4rem;">
+                <p>Hint: Pink elections are still in progress</p>
+                <div *ngFor="let result of results$ | async; trackBy: trackById" class="result">
                     <h2>{{result.name}} <small style="color: gray">{{result.vote}} of {{result.total}} votes
                         cast</small></h2>
-                    <mat-progress-bar [mode]="result.active?'buffer':'determinate'" [value]="result.progress"
+                    <mat-progress-bar mode="determinate" [value]="result.progress"
+                                      [color]="result.active?'accent':'primary'"
                                       style="height: 1rem;"></mat-progress-bar>
                 </div>
             </mat-card-content>
