@@ -1,6 +1,7 @@
 .page {
     padding: 64px 0 0 0;
     font-family: Lato;
+    background: var(--background);
 }
 
 .vid-container {
@@ -19,6 +20,16 @@
     text-align: center;
 }
 
+.mat-tab-label, .mat-tab-labels, .mat-tab-link {
+    color: var(--primary-link) !important;
+    font-size: 16px;
+}
+
+.guide {
+    color: var(--primary-text) !important;
+    font-size: 15px;
+}
+
 .emoji {
     vertical-align: baseline;
 }
@@ -26,6 +37,14 @@
 .slack-img {
     width: 100%;
     margin: 0 auto;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.link {
+    color: var(--link);
 }
 
 .footer-container {
@@ -37,7 +56,7 @@
     clear: both;
     min-height: 96px;
     width: 100%;
-    background:  #fcfcfc;
+    background: var(--background-footer);
     text-align: center;
     font-family: Lato;
     overflow: hidden;
@@ -45,6 +64,7 @@
   
   .footer-text {
     margin-top: 0;
+    color: var(--footer-text);
   }
   
   .footer-link {
@@ -53,9 +73,13 @@
 
   .guide {
       text-align: left;
-      width: 35%;
+      width: 40%;
       margin: 0 auto;
       margin-top: 32px;
+      padding: 32px;
+      background: var(--background-card);
+      border: 2px solid var(--card-border);
+      border-radius: 4px;
   }
 
 @media screen and (max-width: 600px) {

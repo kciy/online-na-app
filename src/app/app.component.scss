@@ -14,6 +14,8 @@ body {
 }
 .page {
   padding: 64px 14px 0;
+  margin: 0;
+  background: var(--background);
 }
 
 .app-container {
@@ -24,13 +26,9 @@ body {
   left: 0;
 }
 
-body {
-  margin: 0;
-}
-
 .topnav {
   position: relative;
-  background-color: rgb(85, 85, 85);
+  background: var(--background-navbar);
   overflow: hidden;
   border-bottom: 2px $esn-pink solid;
   position: fixed;
@@ -60,9 +58,48 @@ body {
   color: $text-white;
 }
 
-.star {
+.icon {
   padding-right: 14px;
-  vertical-align: -8px;
+  vertical-align: -7px;
+}
+
+.icon-right {
+  vertical-align: -2px;
+}
+
+.topnav-right {
+  padding-left: 0 !important;
+}
+
+.darkMode {
+  float: right !important;
+}
+
+.darkMode:hover {
+  cursor: pointer;
+}
+
+.footer-container {
+  // display: inline-block;
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
+  clear: both;
+  overflow: hidden;
+  min-height: 96px;
+  width: 100%;
+  background: var(--background-footer);
+  text-align: center;
+  font-family: Lato;
+}
+
+.footer-text {
+  margin-top: 0;
+  color: var(--footer-text);
+}
+
+.footer-link {
+  text-decoration: none;
 }
 
 

@@ -1,6 +1,7 @@
 .page {
     padding: 64px 14px 0;
     font-family: Lato;
+    background: var(--background);
 }
 
 .footer-container {
@@ -11,7 +12,7 @@
   clear: both;
   min-height: 96px;
   width: 100%;
-  background:  #fcfcfc;
+  background: var(--background-footer);
   text-align: center;
   font-family: Lato;
   overflow: hidden;
@@ -19,6 +20,7 @@
   
   .footer-text {
     margin-top: 0;
+    color: var(--footer-text);
   }
   
   .footer-link {

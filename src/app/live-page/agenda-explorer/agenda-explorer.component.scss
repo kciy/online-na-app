@@ -53,12 +53,19 @@
 .link-container {
     margin-top: 48px;
     margin-bottom: 32px;
+    color: var(--link);
 }
+
 .link {
     text-decoration: none;
-    color: black;
 }
 
 .icon {
     vertical-align: text-top;
+    color: var(--link);
+}
+
+.agenda-link {
+    color: var(--primary-text);
+    text-decoration: none;
 }
