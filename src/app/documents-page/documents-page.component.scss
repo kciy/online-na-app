@@ -1,6 +1,11 @@
 .page {
     padding: 64px 0 0 0;
     font-family: Lato;
+    background: var(--background);
+}
+
+h1, h2 {
+    color: var(--primary-text);
 }
 
 .text-container {
@@ -21,6 +26,11 @@
     text-align: left;
 }
 
+.mat-expansion-panel, .mat-expansion-panel-header-title {
+    background: var(--background-card);
+    color: var(--primary-text);
+}
+
 .sub-head {
     margin-top: 64px;
 }
@@ -28,6 +38,7 @@
 .panel-link {
     text-decoration: none;
     margin-left: 18px;
+    color: var(--link);
 }
 
 .panel-container {
@@ -48,6 +59,7 @@
 
 .icon {
     font-size: 14px;
+    vertical-align: -2px;
 }
 
 .footer-container {
@@ -59,7 +71,7 @@
     clear: both;
     min-height: 96px;
     width: 100%;
-    background:  #fcfcfc;
+    background: var(--background-footer);
     text-align: center;
     font-family: Lato;
     overflow: hidden;
@@ -68,6 +80,7 @@
   
   .footer-text {
     margin-top: 0;
+    color: var(--footer-text);
   }
   
   .footer-link {
