@@ -7,12 +7,13 @@
     text-align: center;
 }
 
-.agenda-card {
+.agenda-card, .mat-expansion-panel {
     display: block;
     margin: 0 auto;
     min-width: 40%;
     max-width: 650px;
-    background: #fcfcfc;
+    background: var(--background-card);
+    color: var(--primary-text);
     text-align: left;
 }
 
@@ -48,6 +49,7 @@
 
 .not-live {
     padding-left: 24px;
+    color: var(--primary-text);
 }
 
 .link-container {
