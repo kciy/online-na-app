@@ -16,6 +16,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {AgendaExplorerComponent} from './live-page/agenda-explorer/agenda-explorer.component';
 import {AngularFireModule} from "@angular/fire";
 import {AngularFireAnalyticsModule, ScreenTrackingService} from "@angular/fire/analytics";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -36,6 +37,7 @@ import {AngularFireAnalyticsModule, ScreenTrackingService} from "@angular/fire/a
     VotingPageComponent,
     DocumentsPageComponent,
     AgendaExplorerComponent,
+    FooterComponent,
   ],
   providers: [ScreenTrackingService],
   bootstrap: [AppComponent]

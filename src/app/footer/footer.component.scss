@@ -1,0 +1,20 @@
+.footer-container {
+    clear: both;
+    min-height: 96px;
+    width: 100%;
+    background: var(--background-footer);
+    text-align: center;
+    font-family: Lato;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.footer-text {
+    margin-top: 0;
+    color: var(--footer-text);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--link);
+}

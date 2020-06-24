@@ -5,7 +5,7 @@
     </div>
     <div class="tabs-container">
         <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
-            <mat-tab label="Live Agenda" class="mat-tab">
+            <mat-tab label="Live Agenda" class="mat-tab contain">
                 <app-agenda-explorer></app-agenda-explorer>
             </mat-tab>
             <mat-tab label="How to ask a question">
@@ -50,9 +50,5 @@
             </mat-tab>
         </mat-tab-group>
     </div>
-    <div class="footer-container">
-        <a href="https://esn-germany.de/" alt="ESN Germany" target="_blank"><img id="footer-img" height="96px"
-                src="../assets/logo/DE_colour-white.png" alt="ESN Germany Logo"></a>
-        <p class="footer-text">© IT-Team ESN Germany e.V.</p>
-    </div>
+    <app-footer></app-footer>
 </div>
