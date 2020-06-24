@@ -62,31 +62,6 @@ h1, h2 {
     vertical-align: -2px;
 }
 
-.footer-container {
-    // display: inline-block;
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
-    margin-top: 32px;
-    clear: both;
-    min-height: 96px;
-    width: 100%;
-    background: var(--background-footer);
-    text-align: center;
-    font-family: Lato;
-    overflow: hidden;
-  }
-
-  
-  .footer-text {
-    margin-top: 0;
-    color: var(--footer-text);
-  }
-  
-  .footer-link {
-    text-decoration: none;
-  }
-
   @media screen and (max-width: 600px) {
     .page {
         padding-top: 128px;

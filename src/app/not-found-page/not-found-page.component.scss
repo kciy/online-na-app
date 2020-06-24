@@ -4,28 +4,10 @@
     background: var(--background);
 }
 
-.footer-container {
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  clear: both;
-  min-height: 96px;
+.container {
+  height: calc(100vh - 250px);
   width: 100%;
-  background: var(--background-footer);
-  text-align: center;
-  font-family: Lato;
-  overflow: hidden;
-  }
-  
-  .footer-text {
-    margin-top: 0;
-    color: var(--footer-text);
-  }
-  
-  .footer-link {
-    text-decoration: none;
-  }
+}
 
   @media screen and (max-width: 600px) {
     .page {

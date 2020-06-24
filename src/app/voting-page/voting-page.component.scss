@@ -73,32 +73,6 @@
     padding: 4px;
 }
 
-.footer-container {
-    // display: inline-block;
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
-    clear: both;
-    min-height: 96px;
-    width: 100%;
-    background: var(--background-footer);
-    text-align: center;
-    font-family: Lato;
-    overflow: hidden;
-    padding-top: 84px;
-  }
-
-  
-  .footer-text {
-    margin-top: 0;
-    color: var(--footer-text);
-  }
-  
-  .footer-link {
-    text-decoration: none;
-  }
-  
-
 @media screen and (max-width: 600px) {
     .page {
         padding-top: 128px;
