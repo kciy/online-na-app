@@ -40,26 +40,6 @@ h1, h2 {
     justify-content: space-between;
 }
 
-.footer-container {
-    clear: both;
-    min-height: 96px;
-    width: 100%;
-    background: var(--background-footer);
-    text-align: center;
-    font-family: Lato;
-    overflow: hidden;
-}
-
-.footer-text {
-    margin-top: 0;
-    color: var(--footer-text);
-}
-
-.link {
-    text-decoration: none;
-    color: var(--link);
-}
-
 .ct-container {
     margin: 0 auto;
     padding: 0 32px;
