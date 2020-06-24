@@ -1,7 +1,7 @@
 <div class="agenda-contain">
     <div *ngIf="(currentItem | async)?.start">
     <p class="pre-title">
-        <mat-icon class="icon live">live_tv</mat-icon> Live
+        <mat-icon class="live">live_tv</mat-icon> Live
     </p>
     <mat-card class="agenda-card live-card">
         <mat-card-subtitle class="not-live">{{ (currentItem | async)?.start | date: 'shortTime' }} to
@@ -37,7 +37,7 @@
 <div class="link-container">
     <a class="agenda-link"
         href="https://docs.google.com/spreadsheets/d/1j7_Y8NRuIQz_8qB53evqqEN_G_rr0rbWiS80LnvK4dU/edit#gid=1221187808"
-        target="_blank"><img id="agenda-img" class="icon" src="../../../assets/icons/calendar-month-white.png"
+        target="_blank"><img id="agenda-img" class="icon" src="../../../assets/icons/calendar-month.png"
             alt="calendar-month-icon" width="17"> Open full agenda</a>
 </div>
 </div>
