@@ -81,6 +81,11 @@ h1, h2 {
     margin-bottom: 64px;
 }
 
+.link {
+    text-decoration: none;
+    color: var(--link);
+}
+
 @media screen and (max-width: 1200px) {
     .page {
         padding-top: 128px;

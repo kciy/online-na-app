@@ -73,6 +73,10 @@
     padding: 4px;
 }
 
+.mat-progress-bar.mat-accent, .mat-progress-bar-background {
+    fill: #eee !important;
+}
+
 @media screen and (max-width: 600px) {
     .page {
         padding-top: 128px;
