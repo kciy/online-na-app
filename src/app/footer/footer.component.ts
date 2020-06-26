@@ -10,6 +10,12 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var button = document.getElementById("toggleButton");
+    var footer = document.getElementById("footer-img");
+
+    if (button.innerHTML === "Light Mode") {
+      footer.setAttribute("src", "../assets/logo/DE_colour-white.png");
+    }
   }
 
 }
