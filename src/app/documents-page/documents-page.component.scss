@@ -26,8 +26,12 @@ h1, h2 {
     text-align: left;
 }
 
-.mat-expansion-panel, .mat-expansion-panel-header-title {
+.mat-expansion-panel, .mat-card, .mat-card-subtitle {
+    color: var(--primary-text);
     background: var(--background-card);
+}
+
+.mat-panel-title, .mat-expansion-panel-header-title {
     color: var(--primary-text);
 }
 
