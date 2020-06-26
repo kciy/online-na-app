@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {HttpClient} from '@angular/common/http';
 import {Observable, timer} from 'rxjs';
 import {map, shareReplay, switchMap} from 'rxjs/operators';
 
@@ -19,7 +19,11 @@ export class VotingPageComponent {
       active: result.active === 'Y',
       progress: (result.vote / result.total) * 100
     }))));
-    this.results$ = timer(0, 10000).pipe(switchMap(() => resultRequest), shareReplay(1));
+    this.results$ = timer(0, 10000).pipe(switchMap(() => resultRequest), map(results => {
+      const extraResults = [...results.filter(res => !res.name.toLowerCase().includes('overview'))];
+      extraResults.sort((a, b) => a.id - b.id);
+      return extraResults;
+    }), shareReplay(1));
     this.lastUpdate$ = this.results$.pipe(map(() => new Date()));
   }
 
