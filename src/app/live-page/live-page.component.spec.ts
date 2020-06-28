@@ -8,9 +8,8 @@ describe('LivePageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LivePageComponent ]
-    })
-    .compileComponents();
+      declarations: [LivePageComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

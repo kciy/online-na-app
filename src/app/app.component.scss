@@ -1,9 +1,9 @@
-@import "../styles.scss";
+@import '../styles.scss';
 
 /* Fonts */
 @font-face {
-  font-family: "Kelson";
-  src: url("../assets/fonts/KelsonSans-Normal.otf");
+  font-family: 'Kelson';
+  src: url('../assets/fonts/KelsonSans-Normal.otf');
   font-style: normal;
   font-weight: 500;
 }
@@ -101,7 +101,6 @@ body {
 .footer-link {
   text-decoration: none;
 }
-
 
 @media screen and (max-width: 600px) {
   // .topnav a,
