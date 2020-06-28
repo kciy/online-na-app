@@ -96,6 +96,14 @@ AO03,Abstain,en
 AO01,"Ja, um sie mit meinen hohen weißen Socken zu kombinieren!",de-informal
 AO02,"Nein, ich hab schon Crocs",de-informal
 AO03,Enthaltung,de-informal
+Q1,"Wollt ihr das Vortragen des Statements, wie es in der E-Mail von ESN Frankfurt/Oder eingefordert wurde, und eine Fragerunde auf die Agenda setzen?",de-informal
+Q1,"Do you want to have the presentation of the statement, as it was requested in the email by ESN Frankfurt/Oder, and a Q&A session on the agenda?",en
+AO01,Yes,en
+AO02,No,en
+AO03,Abstain,en
+AO01,Ja,de-informal
+AO02,Nein,de-informal
+AO03,Enthaltung,de-informal
 Q1,Stimmt ihr dem Antrag bzgl. eines Minimums von zwei Mitgliederversammlungen pro Jahr zu?,de-informal
 Q1,Do you agree to the proposal regarding a minimum of two National Assemblies per year?,en
 AO01,Yes,en
@@ -136,8 +144,8 @@ AO03,Abstain,en
 AO01,Ja,de-informal
 AO02,Nein,de-informal
 AO03,Enthaltung,de-informal
-Q6,Stimmt ihr zu International Student Association Saarbrücken als neue Sektion des ESN Deutschland e.V. aufzunehmen und sie zur Südwestregion hinzuzufügen?,de-informal
-Q6,Do you agree to accept International Student Association Saarbrücken as a new section of ESN Deutschland e.V. and to add it to the South-West region?,en
+Q6,Stimmt ihr zu International Student Association Saarbrücken als neues Mitglied des ESN Deutschland e.V. zum Ende dieser Mitgliederversammlung mit aufzunehmen und sie zur Südwestregion hinzuzufügen?,de-informal
+Q6,Do you agree to accept International Student Association Saarbrücken as a new member of ESN Deutschland e.V. after the end of this National Assembly and to add it to the South-West region?,en
 AO01,Yes,en
 AO02,No,en
 AO03,Abstain,en
@@ -240,15 +248,19 @@ AO03,Abstain,en
 AO01,Ja,de-informal
 AO02,Nein,de-informal
 AO03,Enthaltung,de-informal
-Q13,Wen wählt ihr als Rechtsauditor(en) für das Mandat 2020/21?,de-informal
-Q13,Who do elect as Legal Auditor(s) for the mandate 2020/21?,en
-AO01,Ivo Sieder (ESN LEI Greifswald),en
-AO02,Julius Netzer (ESN Heidelberg),en
-AO03,Both of them,en
-AO04,None of the above,en
-AO05,Abstain,en
-AO01,Nur Ivo Sieder (ESN LEI Greifswald),de-informal
-AO02,Nur Julius Netzer (ESN Heidelberg),de-informal
-AO03,Beide Kandidaten,de-informal
-AO04,Keinen der beiden,de-informal
-AO05,Enthaltung,de-informal
+Q13,Wählt ihr Ivo Sieder (ESN LEI Greifswald) als Rechtsauditor für das Mandat 2020/21?,de-informal
+Q13,Do you elect Ivo Sieder (ESN LEI Greifswald) as Legal Auditor for the mandate 2020/21?,en
+AO01,Yes,en
+AO02,No,en
+AO03,Abstain,en
+AO01,Ja,de-informal
+AO02,Nein,de-informal
+AO03,Enthaltung,de-informal
+Q14,Wählt ihr Julius Netzer (ESN Heidelberg) als Rechtsauditor für das Mandat 2020/21?,de-informal
+Q14,Do you elect Julius Netzer (ESN Heidelberg) as Legal Auditor for the mandate 2020/21?,en
+AO01,Yes,en
+AO02,No,en
+AO03,Abstain,en
+AO01,Ja,de-informal
+AO02,Nein,de-informal
+AO03,Enthaltung,de-informal
