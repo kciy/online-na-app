@@ -8,9 +8,8 @@ describe('AgendaExplorerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AgendaExplorerComponent ]
-    })
-    .compileComponents();
+      declarations: [AgendaExplorerComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

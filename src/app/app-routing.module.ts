@@ -8,15 +8,19 @@ import { VotingPageComponent } from './voting-page/voting-page.component';
 
 const routes: Routes = [
   { path: 'live', component: LivePageComponent },
-  { path: 'voting', data: { title: "Voting Status"}, component: VotingPageComponent },
+  {
+    path: 'voting',
+    data: { title: 'Voting Status' },
+    component: VotingPageComponent,
+  },
   { path: 'documents', component: DocumentsPageComponent },
-  { path: '', pathMatch: 'full', component: HomePageComponent},
+  { path: '', pathMatch: 'full', component: HomePageComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'error' },
-  { path: 'error', component: NotFoundPageComponent, data: { title: 'Error' } }
+  { path: 'error', component: NotFoundPageComponent, data: { title: 'Error' } },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { enableTracing: false })],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

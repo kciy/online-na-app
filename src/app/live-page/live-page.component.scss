@@ -1,85 +1,87 @@
 .page {
-    padding: 64px 0 0 0;
-    font-family: Lato;
-    background: var(--background);
+  padding: 64px 0 0 0;
+  font-family: Lato;
+  background: var(--background);
 }
 
 .vid-container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .vid-container iframe {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .tabs-container {
-    margin: 0 auto;
-    margin-top: 32px;
-    display: block;
-    text-align: center;
-    min-height: 50vh;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: block;
+  text-align: center;
+  min-height: 50vh;
 }
 
 .contain {
-    height: 500px;
+  height: 500px;
 }
 
-.mat-tab-label, .mat-tab-labels, .mat-tab-link {
-    color: var(--primary-link) !important;
-    font-size: 16px;
+.mat-tab-label,
+.mat-tab-labels,
+.mat-tab-link {
+  color: var(--primary-link) !important;
+  font-size: 16px;
 }
 
 .guide {
-    color: var(--primary-text) !important;
-    font-size: 15px;
+  color: var(--primary-text) !important;
+  font-size: 15px;
 }
 
 .emoji {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 .slack-img {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 h3 {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .link {
-    color: var(--link);
+  color: var(--link);
 }
 
-  .footer-link {
-    text-decoration: none;
-  }  
+.footer-link {
+  text-decoration: none;
+}
 
-  .guide {
-      text-align: left;
-      width: 40%;
-      margin: 0 auto;
-      margin-top: 32px;
-      padding: 32px;
-      background: var(--background-card);
-      border: 2px solid var(--card-border);
-      border-radius: 4px;
-  }
+.guide {
+  text-align: left;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 32px;
+  background: var(--background-card);
+  border: 2px solid var(--card-border);
+  border-radius: 4px;
+}
 
 @media screen and (max-width: 600px) {
-    .page {
-        padding-top: 128px;
-    }
-    .vid-container iframe {
-        width: 100%;
-    }
+  .page {
+    padding-top: 128px;
+  }
+  .vid-container iframe {
+    width: 100%;
+  }
 
-    .card-mobile-title {
-        font-size: 20px !important;
-    }
+  .card-mobile-title {
+    font-size: 20px !important;
+  }
 
-    .guide {
-        width: 90%;
-    }
+  .guide {
+    width: 90%;
+  }
 }

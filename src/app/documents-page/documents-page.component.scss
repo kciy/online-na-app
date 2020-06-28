@@ -1,76 +1,81 @@
 .page {
-    padding: 64px 0 0 0;
-    font-family: Lato;
-    background: var(--background);
+  padding: 64px 0 0 0;
+  font-family: Lato;
+  background: var(--background);
 }
 
-h1, h2 {
-    color: var(--primary-text);
+h1,
+h2 {
+  color: var(--primary-text);
 }
 
 .text-container {
-    margin: 0 auto;
-    text-align: center;
-    max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 60%;
 }
 
 .accordion {
-    padding-top: 32px;
+  padding-top: 32px;
 }
 
 .expansion {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-.panel-content, .sub-head {
-    text-align: left;
+.panel-content,
+.sub-head {
+  text-align: left;
 }
 
-.mat-expansion-panel, .mat-card, .mat-card-subtitle {
-    color: var(--primary-text);
-    background: var(--background-card);
+.mat-expansion-panel,
+.mat-card,
+.mat-card-subtitle {
+  color: var(--primary-text);
+  background: var(--background-card);
 }
 
-.mat-panel-title, .mat-expansion-panel-header-title {
-    color: var(--primary-text);
+.mat-panel-title,
+.mat-expansion-panel-header-title {
+  color: var(--primary-text);
 }
 
 .sub-head {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
 .panel-link {
-    text-decoration: none;
-    margin-left: 18px;
-    color: var(--link);
+  text-decoration: none;
+  margin-left: 18px;
+  color: var(--link);
 }
 
 .panel-container {
-    overflow: auto;
+  overflow: auto;
 }
 
 .panel-img {
-    float: left;
+  float: left;
 }
 
 .panel-img img {
-    display: block;
+  display: block;
 }
 
 .panel-img a {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .icon {
-    font-size: 14px;
-    vertical-align: -2px;
+  font-size: 14px;
+  vertical-align: -2px;
 }
 
-  @media screen and (max-width: 600px) {
-    .page {
-        padding-top: 128px;
-    }
-      .text-container {
-          max-width: 90%;
-      }
+@media screen and (max-width: 600px) {
+  .page {
+    padding-top: 128px;
   }
+  .text-container {
+    max-width: 90%;
+  }
+}

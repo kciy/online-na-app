@@ -1,77 +1,78 @@
-@import "../../../styles.scss";
+@import '../../../styles.scss';
 
 .tabs-container {
-    margin: 0 auto;
-    margin-top: 32px;
-    display: block;
-    text-align: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: block;
+  text-align: center;
 }
 
-.agenda-card, .mat-expansion-panel {
-    display: block;
-    margin: 0 auto;
-    min-width: 40%;
-    max-width: 650px;
-    background: var(--background-card);
-    color: var(--primary-text);
-    text-align: left;
+.agenda-card,
+.mat-expansion-panel {
+  display: block;
+  margin: 0 auto;
+  min-width: 40%;
+  max-width: 650px;
+  background: var(--background-card);
+  color: var(--primary-text);
+  text-align: left;
 }
 
 .live-card {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .agenda-contain {
-    min-height: 500px;
+  min-height: 500px;
 }
 
 .pre-title {
-    min-width: 40%;
-    max-width: 650px;
-    text-align: left;
-    color: $text-gray;
-    margin: 0 auto;
-    margin-top: 24px;
-    margin-bottom: 18px;
+  min-width: 40%;
+  max-width: 650px;
+  text-align: left;
+  color: $text-gray;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 18px;
 }
 
 .live {
-    color: red;
-    vertical-align: bottom;
+  color: red;
+  vertical-align: bottom;
 }
 
 .title {
-    font-size: 19px;
-    margin-bottom: 24px;
+  font-size: 19px;
+  margin-bottom: 24px;
 }
 
 .live-placeholder {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
 }
 
 .not-live {
-    padding-left: 24px;
-    color: var(--primary-text);
+  padding-left: 24px;
+  color: var(--primary-text);
 }
 
 .link-container {
-    margin-top: 48px;
-    margin-bottom: 32px;
-    color: var(--link);
+  margin-top: 48px;
+  margin-bottom: 32px;
+  color: var(--link);
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .icon {
-    vertical-align: text-top;
-    color: var(--link);
+  vertical-align: text-top;
+  color: var(--link);
 }
 
 .agenda-link {
-    color: var(--primary-text);
-    text-decoration: none;
+  color: var(--primary-text);
+  text-decoration: none;
 }
