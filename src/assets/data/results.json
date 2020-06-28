@@ -407,9 +407,7 @@
         "ESN VISUM Mannheim",
         "ESN Frankfurt am Main"
       ],
-      "AO03": [
-        "ESN Bayreuth"
-      ]
+      "AO03": ["ESN Bayreuth"]
     }
   },
   {
@@ -474,11 +472,7 @@
         "ESN LEI Rostock",
         "ESN TU Dresden"
       ],
-      "AO03": [
-        "ESN Frankfurt (Oder)",
-        "ESN Karlsruhe",
-        "ESN Stuttgart"
-      ]
+      "AO03": ["ESN Frankfurt (Oder)", "ESN Karlsruhe", "ESN Stuttgart"]
     }
   },
   {
@@ -679,9 +673,7 @@
         "ESN LEI Rostock",
         "ESN TU Dresden"
       ],
-      "AO02": [
-        "ESN Bayreuth"
-      ]
+      "AO02": ["ESN Bayreuth"]
     }
   },
   {

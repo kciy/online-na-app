@@ -1,7 +1,7 @@
 .page {
-    padding: 64px 14px 0;
-    font-family: Lato;
-    background: var(--background);
+  padding: 64px 14px 0;
+  font-family: Lato;
+  background: var(--background);
 }
 
 .container {
@@ -9,10 +9,8 @@
   width: 100%;
 }
 
-  @media screen and (max-width: 600px) {
-    .page {
-        padding-top: 128px;
-    }
+@media screen and (max-width: 600px) {
+  .page {
+    padding-top: 128px;
   }
-
-  
+}
