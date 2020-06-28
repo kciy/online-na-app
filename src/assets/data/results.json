@@ -40,38 +40,38 @@
         "ESN Witten/Herdecke"
       ],
       "AO04": [
-        "ESN Braunschweig",
         "ESN Augsburg",
+        "ESN Braunschweig",
         "ESN Hamburg",
-        "ESN Potsdam",
         "ESN Karlsruhe",
+        "ESN Potsdam",
         "ESN Stuttgart",
         "ESN VISUM Mannheim"
       ],
       "AO03": [
+        "ESN Bayreuth",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Frankfurt am Main",
         "ESN Heidelberg",
         "ESN Hildesheim",
-        "ESN Bayreuth",
-        "ESN LEI Greifswald",
-        "ESN Darmstadt",
-        "ESN Frankfurt am Main",
-        "ESN Düsseldorf"
+        "ESN LEI Greifswald"
       ],
       "AO02": [
+        "ESN Bonn",
         "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Göttingen",
         "ESN Halle (Saale)",
         "ESN IPAS Landau",
-        "ESN Siegen",
-        "ESN TUMi München",
-        "ESN Freiburg",
-        "ESN MESA München",
         "ESN Kiel",
-        "ESN Bonn",
-        "ESN Frankfurt (Oder)",
-        "ESN LEI STEP Kaiserslautern",
         "ESN LEI Rostock",
-        "ESN Göttingen",
-        "ESN TU Dresden"
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Siegen",
+        "ESN TU Dresden",
+        "ESN TUMi München"
       ]
     }
   },
@@ -112,33 +112,33 @@
       ],
       "AO01": [
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
+        "ESN Bayreuth",
         "ESN Bonn",
-        "ESN Freiburg",
         "ESN Braunschweig",
-        "ESN Heidelberg",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
         "ESN Halle (Saale)",
-        "ESN Siegen",
-        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
         "ESN IPAS Landau",
         "ESN Karlsruhe",
-        "ESN Göttingen",
-        "ESN Düsseldorf",
-        "ESN Frankfurt (Oder)",
-        "ESN Potsdam",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN Hamburg",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
         "ESN TU Dresden",
         "ESN TUMi München",
-        "ESN Hildesheim",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Stuttgart",
-        "ESN Darmstadt",
-        "ESN Bayreuth",
-        "ESN Kiel",
-        "ESN VISUM Mannheim",
-        "ESN Frankfurt am Main"
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -179,33 +179,33 @@
       ],
       "AO01": [
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
+        "ESN Bayreuth",
         "ESN Bonn",
-        "ESN Freiburg",
         "ESN Braunschweig",
-        "ESN Heidelberg",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
         "ESN Halle (Saale)",
-        "ESN Siegen",
-        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
         "ESN IPAS Landau",
         "ESN Karlsruhe",
-        "ESN Göttingen",
-        "ESN Düsseldorf",
-        "ESN Frankfurt (Oder)",
-        "ESN Potsdam",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN Hamburg",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
         "ESN TU Dresden",
         "ESN TUMi München",
-        "ESN Hildesheim",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Stuttgart",
-        "ESN Darmstadt",
-        "ESN Bayreuth",
-        "ESN Kiel",
-        "ESN VISUM Mannheim",
-        "ESN Frankfurt am Main"
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -246,33 +246,33 @@
       ],
       "AO01": [
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
+        "ESN Bayreuth",
         "ESN Bonn",
-        "ESN Freiburg",
         "ESN Braunschweig",
-        "ESN Heidelberg",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
         "ESN Halle (Saale)",
-        "ESN Siegen",
-        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
         "ESN IPAS Landau",
         "ESN Karlsruhe",
-        "ESN Göttingen",
-        "ESN Düsseldorf",
-        "ESN Frankfurt (Oder)",
-        "ESN Potsdam",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN Hamburg",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
         "ESN TU Dresden",
         "ESN TUMi München",
-        "ESN Hildesheim",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Stuttgart",
-        "ESN Darmstadt",
-        "ESN Bayreuth",
-        "ESN Kiel",
-        "ESN VISUM Mannheim",
-        "ESN Frankfurt am Main"
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -313,33 +313,33 @@
       ],
       "AO01": [
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
+        "ESN Bayreuth",
         "ESN Bonn",
-        "ESN Freiburg",
         "ESN Braunschweig",
-        "ESN Heidelberg",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
         "ESN Halle (Saale)",
-        "ESN Siegen",
-        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
         "ESN IPAS Landau",
         "ESN Karlsruhe",
-        "ESN Göttingen",
-        "ESN Düsseldorf",
-        "ESN Frankfurt (Oder)",
-        "ESN Potsdam",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN Hamburg",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
         "ESN TU Dresden",
         "ESN TUMi München",
-        "ESN Hildesheim",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Stuttgart",
-        "ESN Darmstadt",
-        "ESN Bayreuth",
-        "ESN Kiel",
-        "ESN VISUM Mannheim",
-        "ESN Frankfurt am Main"
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -380,32 +380,32 @@
       ],
       "AO01": [
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
         "ESN Bonn",
-        "ESN Freiburg",
         "ESN Braunschweig",
-        "ESN Heidelberg",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
         "ESN Halle (Saale)",
-        "ESN Siegen",
-        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
         "ESN IPAS Landau",
         "ESN Karlsruhe",
-        "ESN Göttingen",
-        "ESN Düsseldorf",
-        "ESN Frankfurt (Oder)",
-        "ESN Potsdam",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN Hamburg",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
         "ESN TU Dresden",
         "ESN TUMi München",
-        "ESN Hildesheim",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Stuttgart",
-        "ESN Darmstadt",
-        "ESN Kiel",
-        "ESN VISUM Mannheim",
-        "ESN Frankfurt am Main"
+        "ESN VISUM Mannheim"
       ],
       "AO03": ["ESN Bayreuth"]
     }
@@ -446,31 +446,31 @@
         "ESN Witten/Herdecke"
       ],
       "AO01": [
-        "ESN Braunschweig",
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
-        "ESN Heidelberg",
-        "ESN IPAS Landau",
-        "ESN Hildesheim",
-        "ESN TUMi München",
-        "ESN MESA München",
-        "ESN Hamburg",
-        "ESN Potsdam",
         "ESN Bayreuth",
-        "ESN Düsseldorf",
-        "ESN Freiburg",
-        "ESN VISUM Mannheim",
         "ESN Bonn",
+        "ESN Braunschweig",
         "ESN Darmstadt",
-        "ESN Halle (Saale)",
-        "ESN Kiel",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Göttingen",
-        "ESN Siegen",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
         "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN TU Dresden"
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
       ],
       "AO03": ["ESN Frankfurt (Oder)", "ESN Karlsruhe", "ESN Stuttgart"]
     }
@@ -511,34 +511,34 @@
         "ESN Witten/Herdecke"
       ],
       "AO01": [
-        "ESN Braunschweig",
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
-        "ESN Heidelberg",
-        "ESN IPAS Landau",
-        "ESN Hildesheim",
-        "ESN Frankfurt (Oder)",
-        "ESN TUMi München",
-        "ESN MESA München",
-        "ESN Hamburg",
-        "ESN Potsdam",
         "ESN Bayreuth",
-        "ESN Düsseldorf",
-        "ESN Karlsruhe",
-        "ESN Freiburg",
-        "ESN VISUM Mannheim",
         "ESN Bonn",
+        "ESN Braunschweig",
         "ESN Darmstadt",
-        "ESN Halle (Saale)",
-        "ESN Kiel",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Göttingen",
-        "ESN Stuttgart",
-        "ESN Siegen",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
         "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN TU Dresden"
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -578,34 +578,34 @@
         "ESN Witten/Herdecke"
       ],
       "AO01": [
-        "ESN Braunschweig",
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
-        "ESN Heidelberg",
-        "ESN IPAS Landau",
-        "ESN Hildesheim",
-        "ESN Frankfurt (Oder)",
-        "ESN TUMi München",
-        "ESN MESA München",
-        "ESN Hamburg",
-        "ESN Potsdam",
         "ESN Bayreuth",
-        "ESN Düsseldorf",
-        "ESN Karlsruhe",
-        "ESN Freiburg",
-        "ESN VISUM Mannheim",
         "ESN Bonn",
+        "ESN Braunschweig",
         "ESN Darmstadt",
-        "ESN Halle (Saale)",
-        "ESN Kiel",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Göttingen",
-        "ESN Stuttgart",
-        "ESN Siegen",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
         "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN TU Dresden"
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -645,33 +645,33 @@
         "ESN Witten/Herdecke"
       ],
       "AO01": [
-        "ESN Braunschweig",
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
-        "ESN Heidelberg",
-        "ESN IPAS Landau",
-        "ESN Hildesheim",
-        "ESN Frankfurt (Oder)",
-        "ESN TUMi München",
-        "ESN MESA München",
-        "ESN Hamburg",
-        "ESN Potsdam",
-        "ESN Düsseldorf",
-        "ESN Karlsruhe",
-        "ESN Freiburg",
-        "ESN VISUM Mannheim",
         "ESN Bonn",
+        "ESN Braunschweig",
         "ESN Darmstadt",
-        "ESN Halle (Saale)",
-        "ESN Kiel",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Göttingen",
-        "ESN Stuttgart",
-        "ESN Siegen",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
         "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN TU Dresden"
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
       ],
       "AO02": ["ESN Bayreuth"]
     }
@@ -712,34 +712,34 @@
         "ESN Witten/Herdecke"
       ],
       "AO01": [
-        "ESN Braunschweig",
         "ESN Augsburg",
-        "ESN Erasmix Medizin Berlin",
-        "ESN Heidelberg",
-        "ESN IPAS Landau",
-        "ESN Hildesheim",
-        "ESN Frankfurt (Oder)",
-        "ESN TUMi München",
-        "ESN MESA München",
-        "ESN Hamburg",
-        "ESN Potsdam",
         "ESN Bayreuth",
-        "ESN Düsseldorf",
-        "ESN Karlsruhe",
-        "ESN Freiburg",
-        "ESN VISUM Mannheim",
         "ESN Bonn",
+        "ESN Braunschweig",
         "ESN Darmstadt",
-        "ESN Halle (Saale)",
-        "ESN Kiel",
-        "ESN LEI STEP Kaiserslautern",
-        "ESN LEI Greifswald",
-        "ESN Göttingen",
-        "ESN Stuttgart",
-        "ESN Siegen",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
         "ESN Frankfurt am Main",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
         "ESN LEI Rostock",
-        "ESN TU Dresden"
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
       ]
     }
   },
@@ -764,7 +764,122 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO03": [
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Karlsruhe",
+        "ESN Köln",
+        "ESN Potsdam",
+        "ESN Stuttgart",
+        "ESN TUMi München"
+      ],
+      "AO02": [
+        "ESN Augsburg",
+        "ESN Düsseldorf",
+        "ESN Göttingen",
+        "ESN Heidelberg",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
+        "ESN Siegen",
+        "ESN TU Dresden"
+      ],
+      "AO01": [
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Freiburg",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN VISUM Mannheim"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wollt ihr das Vortragen des Statements, wie es in der E-Mail von ESN Frankfurt/Oder eingefordert wurde, und eine Fragerunde auf die Agenda setzen?",
+      "en": "Do you want to have the presentation of the statement, as it was requested in the email by ESN Frankfurt/Oder, and a Q&A session on the agenda?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO02": ["ESN Bochum", "ESN Dortmund", "ESN Freiburg"],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bayreuth",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Frankfurt (Oder)",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München"
+      ],
+      "AO03": [
+        "ESN Erasmix Medizin Berlin",
+        "ESN LEI Rostock",
+        "ESN VISUM Mannheim"
+      ]
+    }
   },
   {
     "question": {
@@ -787,7 +902,51 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
+      ],
+      "AO02": ["ESN MESA München"],
+      "AO03": ["ESN LEI Rostock"]
+    }
   },
   {
     "question": {
@@ -810,7 +969,51 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
+      ]
+    }
   },
   {
     "question": {
@@ -833,7 +1036,53 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN VISUM Mannheim"
+      ],
+      "AO03": [
+        "ESN Augsburg",
+        "ESN Hildesheim",
+        "ESN MESA München",
+        "ESN TU Dresden",
+        "ESN TUMi München"
+      ],
+      "AO02": ["ESN Göttingen"]
+    }
   },
   {
     "question": {
@@ -856,7 +1105,50 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München"
+      ],
+      "AO03": ["ESN MESA München", "ESN VISUM Mannheim"]
+    }
   },
   {
     "question": {
@@ -879,12 +1171,55 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN TU Dresden",
+        "ESN TUMi München"
+      ],
+      "AO02": ["ESN Karlsruhe", "ESN Stuttgart"],
+      "AO03": ["ESN VISUM Mannheim"]
+    }
   },
   {
     "question": {
-      "de": "Stimmt ihr zu International Student Association Saarbrücken als neue Sektion des ESN Deutschland e.V. aufzunehmen und sie zur Südwestregion hinzuzufügen?",
-      "en": "Do you agree to accept International Student Association Saarbrücken as a new section of ESN Deutschland e.V. and to add it to the South-West region?"
+      "de": "Stimmt ihr zu International Student Association Saarbrücken als neues Mitglied des ESN Deutschland e.V. zum Ende dieser Mitgliederversammlung mit aufzunehmen und sie zur Südwestregion hinzuzufügen?",
+      "en": "Do you agree to accept International Student Association Saarbrücken as a new member of ESN Deutschland e.V. after the end of this National Assembly and to add it to the South-West region?"
     },
     "answers": [
       {
@@ -902,7 +1237,51 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bayreuth",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Frankfurt (Oder)",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Karlsruhe",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Potsdam",
+        "ESN Siegen",
+        "ESN Stuttgart",
+        "ESN TU Dresden",
+        "ESN TUMi München"
+      ],
+      "AO03": ["ESN VISUM Mannheim"]
+    }
   },
   {
     "question": {
@@ -925,7 +1304,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -948,7 +1364,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -971,7 +1424,34 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ],
+      "AO02": ["Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO03": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote", "Vote"]
+    }
   },
   {
     "question": {
@@ -994,7 +1474,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -1017,7 +1534,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -1040,7 +1594,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -1063,7 +1654,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ],
+      "AO03": ["Vote"]
+    }
   },
   {
     "question": {
@@ -1086,7 +1714,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -1109,7 +1774,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -1132,7 +1834,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ],
+      "AO03": ["Vote"]
+    }
   },
   {
     "question": {
@@ -1155,7 +1894,44 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
@@ -1178,39 +1954,156 @@
         "de": "Enthaltung",
         "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ]
+    }
   },
   {
     "question": {
-      "de": "Wen wählt ihr als Rechtsauditor(en) für das Mandat 2020/21?",
-      "en": "Who do elect as Legal Auditor(s) for the mandate 2020/21?"
+      "de": "Wählt ihr Ivo Sieder (ESN LEI Greifswald) als Rechtsauditor für das Mandat 2020/21?",
+      "en": "Do you elect Ivo Sieder (ESN LEI Greifswald) as Legal Auditor for the mandate 2020/21?"
     },
     "answers": [
       {
-        "en": "Ivo Sieder (ESN LEI Greifswald)",
-        "de": "Nur Ivo Sieder (ESN LEI Greifswald)",
+        "en": "Yes",
+        "de": "Ja",
         "id": "AO01"
       },
       {
-        "en": "Julius Netzer (ESN Heidelberg)",
-        "de": "Nur Julius Netzer (ESN Heidelberg)",
+        "en": "No",
+        "de": "Nein",
         "id": "AO02"
-      },
-      {
-        "en": "Both of them",
-        "de": "Beide Kandidaten",
-        "id": "AO03"
-      },
-      {
-        "en": "None of the above",
-        "de": "Keinen der beiden",
-        "id": "AO04"
       },
       {
         "en": "Abstain",
         "de": "Enthaltung",
-        "id": "AO05"
+        "id": "AO03"
       }
-    ]
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ],
+      "AO02": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO03": ["Vote"]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Julius Netzer (ESN Heidelberg) als Rechtsauditor für das Mandat 2020/21?",
+      "en": "Do you elect Julius Netzer (ESN Heidelberg) as Legal Auditor for the mandate 2020/21?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": ["Vote", "Vote", "Vote", "Vote", "Vote", "Vote"],
+      "AO01": [
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote",
+        "Vote"
+      ],
+      "AO02": ["Vote", "Vote"],
+      "AO03": ["Vote", "Vote"]
+    }
   }
 ]

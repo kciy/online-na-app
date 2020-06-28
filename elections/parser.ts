@@ -74,9 +74,10 @@ for (const entry of parsedAnswers) {
   }
 }
 const exportFiles = [
-  // 'results_99990.csv',
-  // 'results_99991.csv',
-  // 'results_99992.csv',
+  'results_99990.csv',
+  'results_99992.csv',
+  'results_99994.csv',
+  'results_99996.csv',
   'results_100000.csv',
   'results_100001.csv',
   'results_100002.csv',
@@ -95,17 +96,30 @@ exportFiles.map((file) => {
     if (!data) {
       console.log(file);
       console.log(key);
-      console.log(parsedResults);
+      console.log(questions);
     }
     const results = { none: [] };
+    let isPublic = true;
     sections.forEach((result) => {
       const questionId = data.answers.find((a) => a.de === result[index]).id;
+      if (result.slice(-1)[0].trim() === 'Vote') {
+        isPublic = false;
+      }
       results[questionId] = [
         ...(results[questionId] ?? []),
         result.slice(-1)[0].trim(),
       ];
+      results[questionId].sort();
     });
-    results.none = allSections.filter((s) => !sectionNames.includes(s));
+    if (isPublic) {
+      results.none = allSections.filter((s) => !sectionNames.includes(s));
+    } else {
+      const none = [];
+      for (let i = 0; i < allSections.length - sections.length; i++) {
+        none[i] = 'Vote';
+      }
+      results.none = none;
+    }
     questions[key] = { ...data, results };
   });
 });
