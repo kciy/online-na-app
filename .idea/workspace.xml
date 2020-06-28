@@ -22,18 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b2b29c-e81c-47bf-a0fb-978b16d2efb8" name="Default Changelist" comment="Add update notification to ensure that the cache doesn't mess with us">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/online-na-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="f6b2b29c-e81c-47bf-a0fb-978b16d2efb8" name="Default Changelist" comment="Commit changes before update">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +152,7 @@
       <workItem from="1593202522678" duration="793000" />
       <workItem from="1593261083873" duration="628000" />
       <workItem from="1593262867705" duration="10226000" />
-      <workItem from="1593326534187" duration="3838000" />
+      <workItem from="1593326534187" duration="4907000" />
     </task>
     <task id="LOCAL-00001" summary="Update for the voting info page">
       <created>1592470740494</created>
@@ -214,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593329705354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add prettier and webstorm config">
+      <created>1593330440384</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593330440384</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Apply code style">
+      <created>1593330505614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593330505614</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit changes before update">
+      <created>1593331379654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593331379654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,29 +250,32 @@
     <MESSAGE value="Filter the election status and sort them correctly&#10;&#10;As the server admin was in no condition to change this" />
     <MESSAGE value="Add voting results display&#10;&#10;+ Adds the csv files that contain the results&#10;+ Adds a parser to transform those files into a more usable format&#10;+ Adds UI to display the results on desktop and mobile" />
     <MESSAGE value="Add update notification to ensure that the cache doesn't mess with us" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add update notification to ensure that the cache doesn't mess with us" />
+    <MESSAGE value="Add prettier and webstorm config" />
+    <MESSAGE value="Apply code style" />
+    <MESSAGE value="Commit changes before update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit changes before update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="562" y="608" key="GitRewordDialog" timestamp="1592652781290">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="562" y="608" key="GitRewordDialog/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1592652781290" />
-    <state width="1696" height="383" key="GridCell.Tab.0.bottom" timestamp="1593328644576">
+    <state width="1696" height="385" key="GridCell.Tab.0.bottom" timestamp="1593330811563">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="383" key="GridCell.Tab.0.bottom/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644576" />
-    <state width="1696" height="383" key="GridCell.Tab.0.center" timestamp="1593328644576">
+    <state width="1696" height="385" key="GridCell.Tab.0.bottom/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593330811563" />
+    <state width="1696" height="385" key="GridCell.Tab.0.center" timestamp="1593330811562">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="383" key="GridCell.Tab.0.center/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644576" />
-    <state width="1696" height="383" key="GridCell.Tab.0.left" timestamp="1593328644575">
+    <state width="1696" height="385" key="GridCell.Tab.0.center/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593330811562" />
+    <state width="1696" height="385" key="GridCell.Tab.0.left" timestamp="1593330811562">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="383" key="GridCell.Tab.0.left/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644575" />
-    <state width="1696" height="383" key="GridCell.Tab.0.right" timestamp="1593328644576">
+    <state width="1696" height="385" key="GridCell.Tab.0.left/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593330811562" />
+    <state width="1696" height="385" key="GridCell.Tab.0.right" timestamp="1593330811562">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="383" key="GridCell.Tab.0.right/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644576" />
+    <state width="1696" height="385" key="GridCell.Tab.0.right/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593330811562" />
     <state x="639" y="322" key="RollbackChangesDialog" timestamp="1593261705141">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
