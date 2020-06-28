@@ -1,0 +1,1224 @@
+[
+  {
+    "question": {
+      "de": "In der Quarantäne habe ich … bekommen.",
+      "en": "During the quarantine I got…"
+    },
+    "answers": [
+      {
+        "en": "Corona",
+        "de": "Corona",
+        "id": "AO01"
+      },
+      {
+        "en": "Bored",
+        "de": "Langeweile",
+        "id": "AO02"
+      },
+      {
+        "en": "Fat",
+        "de": "20 Kilo extra",
+        "id": "AO03"
+      },
+      {
+        "en": "All of the above",
+        "de": "Alle der genannten",
+        "id": "AO04"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO04": [
+        "ESN Braunschweig",
+        "ESN Augsburg",
+        "ESN Hamburg",
+        "ESN Potsdam",
+        "ESN Karlsruhe",
+        "ESN Stuttgart",
+        "ESN VISUM Mannheim"
+      ],
+      "AO03": [
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN Bayreuth",
+        "ESN LEI Greifswald",
+        "ESN Darmstadt",
+        "ESN Frankfurt am Main",
+        "ESN Düsseldorf"
+      ],
+      "AO02": [
+        "ESN Erasmix Medizin Berlin",
+        "ESN Halle (Saale)",
+        "ESN IPAS Landau",
+        "ESN Siegen",
+        "ESN TUMi München",
+        "ESN Freiburg",
+        "ESN MESA München",
+        "ESN Kiel",
+        "ESN Bonn",
+        "ESN Frankfurt (Oder)",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Rostock",
+        "ESN Göttingen",
+        "ESN TU Dresden"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Julius Gonsior (ESN TU Dresden) als Versammlungsleiter für diese Mitgliederversammlung?",
+      "en": "Do you elect Julius Gonsior (ESN TU Dresden) as Main Chair of this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Bonn",
+        "ESN Freiburg",
+        "ESN Braunschweig",
+        "ESN Heidelberg",
+        "ESN Halle (Saale)",
+        "ESN Siegen",
+        "ESN MESA München",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Göttingen",
+        "ESN Düsseldorf",
+        "ESN Frankfurt (Oder)",
+        "ESN Potsdam",
+        "ESN LEI Rostock",
+        "ESN Hamburg",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN Hildesheim",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Stuttgart",
+        "ESN Darmstadt",
+        "ESN Bayreuth",
+        "ESN Kiel",
+        "ESN VISUM Mannheim",
+        "ESN Frankfurt am Main"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Duje Ercegović  (ESN Split, Kroatien) als stellvertretenden Versammlungsleiter für diese Mitgliederversammlung?",
+      "en": "Do you elect Duje Ercegović  (ESN Split, Kroatien) as Vice-Chair of this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Bonn",
+        "ESN Freiburg",
+        "ESN Braunschweig",
+        "ESN Heidelberg",
+        "ESN Halle (Saale)",
+        "ESN Siegen",
+        "ESN MESA München",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Göttingen",
+        "ESN Düsseldorf",
+        "ESN Frankfurt (Oder)",
+        "ESN Potsdam",
+        "ESN LEI Rostock",
+        "ESN Hamburg",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN Hildesheim",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Stuttgart",
+        "ESN Darmstadt",
+        "ESN Bayreuth",
+        "ESN Kiel",
+        "ESN VISUM Mannheim",
+        "ESN Frankfurt am Main"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Jana Borchardt (ESN IPAS Landau) als “Speakers List Assistant” für diese Mitgliederversammlung?",
+      "en": "Do you elect Jana Borchardt (ESN IPAS Landau) as Speaker’s List Assitant of this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Bonn",
+        "ESN Freiburg",
+        "ESN Braunschweig",
+        "ESN Heidelberg",
+        "ESN Halle (Saale)",
+        "ESN Siegen",
+        "ESN MESA München",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Göttingen",
+        "ESN Düsseldorf",
+        "ESN Frankfurt (Oder)",
+        "ESN Potsdam",
+        "ESN LEI Rostock",
+        "ESN Hamburg",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN Hildesheim",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Stuttgart",
+        "ESN Darmstadt",
+        "ESN Bayreuth",
+        "ESN Kiel",
+        "ESN VISUM Mannheim",
+        "ESN Frankfurt am Main"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Viktoria Schwarz (ESN Freiburg) als Wahlhelfer für diese Mitgliederversammlung?",
+      "en": "Do you elect Viktoria Schwarz (ESN Freiburg) as scrutineer for this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Bonn",
+        "ESN Freiburg",
+        "ESN Braunschweig",
+        "ESN Heidelberg",
+        "ESN Halle (Saale)",
+        "ESN Siegen",
+        "ESN MESA München",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Göttingen",
+        "ESN Düsseldorf",
+        "ESN Frankfurt (Oder)",
+        "ESN Potsdam",
+        "ESN LEI Rostock",
+        "ESN Hamburg",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN Hildesheim",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Stuttgart",
+        "ESN Darmstadt",
+        "ESN Bayreuth",
+        "ESN Kiel",
+        "ESN VISUM Mannheim",
+        "ESN Frankfurt am Main"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Bastian Latsch (ESN Darmstadt) als Wahlhelfer für diese Mitgliederversammlung?",
+      "en": "Do you elect Bastian Latsch (ESN Darmstadt) as scrutineer for this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Bonn",
+        "ESN Freiburg",
+        "ESN Braunschweig",
+        "ESN Heidelberg",
+        "ESN Halle (Saale)",
+        "ESN Siegen",
+        "ESN MESA München",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Göttingen",
+        "ESN Düsseldorf",
+        "ESN Frankfurt (Oder)",
+        "ESN Potsdam",
+        "ESN LEI Rostock",
+        "ESN Hamburg",
+        "ESN TU Dresden",
+        "ESN TUMi München",
+        "ESN Hildesheim",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Stuttgart",
+        "ESN Darmstadt",
+        "ESN Kiel",
+        "ESN VISUM Mannheim",
+        "ESN Frankfurt am Main"
+      ],
+      "AO03": [
+        "ESN Bayreuth"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Genehmigt ihr das Protokoll der NA München?",
+      "en": "Do you approve the minutes of the NA Munich?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Braunschweig",
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Hildesheim",
+        "ESN TUMi München",
+        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Potsdam",
+        "ESN Bayreuth",
+        "ESN Düsseldorf",
+        "ESN Freiburg",
+        "ESN VISUM Mannheim",
+        "ESN Bonn",
+        "ESN Darmstadt",
+        "ESN Halle (Saale)",
+        "ESN Kiel",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Göttingen",
+        "ESN Siegen",
+        "ESN Frankfurt am Main",
+        "ESN LEI Rostock",
+        "ESN TU Dresden"
+      ],
+      "AO03": [
+        "ESN Frankfurt (Oder)",
+        "ESN Karlsruhe",
+        "ESN Stuttgart"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr der Agenda dieser Mitgliederversammlung zu?",
+      "en": "Do you approve the agenda of this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Braunschweig",
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Hildesheim",
+        "ESN Frankfurt (Oder)",
+        "ESN TUMi München",
+        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Potsdam",
+        "ESN Bayreuth",
+        "ESN Düsseldorf",
+        "ESN Karlsruhe",
+        "ESN Freiburg",
+        "ESN VISUM Mannheim",
+        "ESN Bonn",
+        "ESN Darmstadt",
+        "ESN Halle (Saale)",
+        "ESN Kiel",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Göttingen",
+        "ESN Stuttgart",
+        "ESN Siegen",
+        "ESN Frankfurt am Main",
+        "ESN LEI Rostock",
+        "ESN TU Dresden"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Hannah Potthoff (ESN Potsdam) als Ombudsperson für diese Mitgliederversammlung?",
+      "en": "Do you elect Hannah Potthoff (ESN Potsdam) as ombudsperson for this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Braunschweig",
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Hildesheim",
+        "ESN Frankfurt (Oder)",
+        "ESN TUMi München",
+        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Potsdam",
+        "ESN Bayreuth",
+        "ESN Düsseldorf",
+        "ESN Karlsruhe",
+        "ESN Freiburg",
+        "ESN VISUM Mannheim",
+        "ESN Bonn",
+        "ESN Darmstadt",
+        "ESN Halle (Saale)",
+        "ESN Kiel",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Göttingen",
+        "ESN Stuttgart",
+        "ESN Siegen",
+        "ESN Frankfurt am Main",
+        "ESN LEI Rostock",
+        "ESN TU Dresden"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Tanyel Arabaci (ESN Siegen) als Ombudsperson für diese Mitgliederversammlung?",
+      "en": "Do you elect Tanyel Arabaci (ESN Siegen) as ombudsperson for this National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Braunschweig",
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Hildesheim",
+        "ESN Frankfurt (Oder)",
+        "ESN TUMi München",
+        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Potsdam",
+        "ESN Düsseldorf",
+        "ESN Karlsruhe",
+        "ESN Freiburg",
+        "ESN VISUM Mannheim",
+        "ESN Bonn",
+        "ESN Darmstadt",
+        "ESN Halle (Saale)",
+        "ESN Kiel",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Göttingen",
+        "ESN Stuttgart",
+        "ESN Siegen",
+        "ESN Frankfurt am Main",
+        "ESN LEI Rostock",
+        "ESN TU Dresden"
+      ],
+      "AO02": [
+        "ESN Bayreuth"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr der Verschiebung der Kassenprüfung auf die kommende Mitgliederversammlung zu?",
+      "en": "Do you agree to the postponement of the Cash Audit until the next National Assembly?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Koblenz",
+        "ESN Köln",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Braunschweig",
+        "ESN Augsburg",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Hildesheim",
+        "ESN Frankfurt (Oder)",
+        "ESN TUMi München",
+        "ESN MESA München",
+        "ESN Hamburg",
+        "ESN Potsdam",
+        "ESN Bayreuth",
+        "ESN Düsseldorf",
+        "ESN Karlsruhe",
+        "ESN Freiburg",
+        "ESN VISUM Mannheim",
+        "ESN Bonn",
+        "ESN Darmstadt",
+        "ESN Halle (Saale)",
+        "ESN Kiel",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN LEI Greifswald",
+        "ESN Göttingen",
+        "ESN Stuttgart",
+        "ESN Siegen",
+        "ESN Frankfurt am Main",
+        "ESN LEI Rostock",
+        "ESN TU Dresden"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Holt ihr euch die neuen mega irre geilen ESN Germany Badelatschen?",
+      "en": "Are you going to get the amazing ESN Germany slippers?"
+    },
+    "answers": [
+      {
+        "en": "Yes, to combine with my long white socks!",
+        "de": "Ja, um sie mit meinen hohen weißen Socken zu kombinieren!",
+        "id": "AO01"
+      },
+      {
+        "en": "No, I use Crocs already",
+        "de": "Nein, ich hab schon Crocs",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dem Antrag bzgl. eines Minimums von zwei Mitgliederversammlungen pro Jahr zu?",
+      "en": "Do you agree to the proposal regarding a minimum of two National Assemblies per year?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dem Antrag “Sektionsberatung” zu?",
+      "en": "Do you agree to the proposal “Section Consultation”?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dem Antrag “Budget” bzgl. der Orientierung am Geschäftsjahr zu?",
+      "en": "Do you agree to the proposal “Budget” regarding the orientation towards the fiscal year?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr zu Lokale Erasmus Initiative Konstanz als neue Kandidatensektion des ESN Deutschland e.V. aufzunehmen?",
+      "en": "Do you agree to accept Lokale Erasmus Initiative Konstanz as a new candidate section of ESN Deutschland e.V.?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr zu Gemini e.V. (Pforzheim) als neue Kandidatensektion des ESN Deutschland e.V. aufzunehmen?",
+      "en": "Do you agree to accept Gemini e.V. (Pforzheim) as a new candidate section of ESN Deutschland e.V.?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr zu International Student Association Saarbrücken als neue Sektion des ESN Deutschland e.V. aufzunehmen und sie zur Südwestregion hinzuzufügen?",
+      "en": "Do you agree to accept International Student Association Saarbrücken as a new section of ESN Deutschland e.V. and to add it to the South-West region?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Olivia Parczyk von ihren Tätigkeiten als Präsidentin während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Olivia Parczyk of her actions as President during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Bianca Keiper von ihren Tätigkeiten als Vizepräsidentin während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Bianca Keiper of her actions as Vice-President during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Luís Henriques von seinen Tätigkeiten als Finanzvorstand während des NB Mandats 2019/20 bis einschließlich September 2019 zu entlasten?",
+      "en": "Do you agree to discharge Luís Henriques of his actions as Treasurer during the NB mandate 2019/20 up to and including September 2019?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Jana Borchardt von ihren Tätigkeiten als Nationale Repräsentantin während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Jana Borchardt of her actions as National Representative during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Laura Hoffmann von ihren Tätigkeiten als PR-Managerin während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Laura Hoffmann of her actions as PR-Manager during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Hannah Potthoff von ihren Tätigkeiten als Partnership-Managerin während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Hannah Potthoff of her actions as Partnership Manager during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Michel Böhm von seinen Tätigkeiten als Webmaster während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Michel Böhm of his actions as Webmaster during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Julia Bauer von ihren Tätigkeiten als Education Officer während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Julia Bauer of her actions as Education Officer during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Pedro González von seinen Tätigkeiten als Stellvertretender Nationaler Repräsentant während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Pedro González of his actions as Vice National Representative during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dafür Milan Grigull von seinen Tätigkeiten als Event Manager während des NB Mandats 2019/20 zu entlasten?",
+      "en": "Do you agree to discharge Milan Grigull of his actions as Event Manager during the NB mandate 2019/20?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Patrick Peeck (ESN Darmstadt) als Verwaltungsratsvorsitzenden für das Mandat 2020/21?",
+      "en": "Do you elect Patrick Peeck (ESN Darmstadt) as Main Chair of the Audit Board for the mandate 2020/21?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Wählt ihr Alina Dallmann (ESN Darmstadt) als Finanzauditorin für das Mandat 2020/21?",
+      "en": "Do you elect Alina Dallmann (ESN Darmstadt) as Financial Auditor for the mandate 2020/21?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ]
+  },
+  {
+    "question": {
+      "de": "Wen wählt ihr als Rechtsauditor(en) für das Mandat 2020/21?",
+      "en": "Who do elect as Legal Auditor(s) for the mandate 2020/21?"
+    },
+    "answers": [
+      {
+        "en": "Ivo Sieder (ESN LEI Greifswald)",
+        "de": "Nur Ivo Sieder (ESN LEI Greifswald)",
+        "id": "AO01"
+      },
+      {
+        "en": "Julius Netzer (ESN Heidelberg)",
+        "de": "Nur Julius Netzer (ESN Heidelberg)",
+        "id": "AO02"
+      },
+      {
+        "en": "Both of them",
+        "de": "Beide Kandidaten",
+        "id": "AO03"
+      },
+      {
+        "en": "None of the above",
+        "de": "Keinen der beiden",
+        "id": "AO04"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO05"
+      }
+    ]
+  }
+]
