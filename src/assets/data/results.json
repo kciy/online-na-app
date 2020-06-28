@@ -2105,5 +2105,76 @@
       "AO02": ["Vote", "Vote"],
       "AO03": ["Vote", "Vote"]
     }
+  },
+  {
+    "question": {
+      "de": "Wollt ihr, dass die Rednerliste für die Q&A zu dem Statement des Vorstands geschlossen wird?",
+      "en": "Do you want that the Speakers List for the Q&A about the NB's statement will be closed?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN AKI Deggendorf",
+        "ESN Bonn",
+        "ESN Düsseldorf",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN Koblenz",
+        "ESN MESA München",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN Augsburg",
+        "ESN Bochum",
+        "ESN Dortmund",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Heidelberg",
+        "ESN IPAS Landau",
+        "ESN Ingolstadt",
+        "ESN Karlsruhe",
+        "ESN Köln",
+        "ESN LEI Rostock",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN Stuttgart",
+        "ESN TU Dresden"
+      ],
+      "AO02": [
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Frankfurt (Oder)",
+        "ESN Hamburg",
+        "ESN Jena",
+        "ESN Potsdam",
+        "ESN TUMi München"
+      ],
+      "AO03": [
+        "ESN Bayreuth",
+        "ESN Halle (Saale)",
+        "ESN Hildesheim",
+        "ESN Kiel",
+        "ESN LEI Greifswald",
+        "ESN Siegen",
+        "ESN VISUM Mannheim"
+      ]
+    }
   }
 ]

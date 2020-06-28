@@ -264,3 +264,11 @@ AO03,Abstain,en
 AO01,Ja,de-informal
 AO02,Nein,de-informal
 AO03,Enthaltung,de-informal
+Q1,"Wollt ihr, dass die Rednerliste für die Q&A zu dem Statement des Vorstands geschlossen wird?",de-informal
+Q1,Do you want that the Speakers List for the Q&A about the NB's statement will be closed?,en
+AO01,Yes,en
+AO02,No,en
+AO03,Abstain,en
+AO01,Ja,de-informal
+AO02,Nein,de-informal
+AO03,Enthaltung,de-informal

@@ -78,6 +78,7 @@ const exportFiles = [
   'results_99992.csv',
   'results_99994.csv',
   'results_99996.csv',
+  'results_99997.csv',
   'results_100000.csv',
   'results_100001.csv',
   'results_100002.csv',
