@@ -8,9 +8,8 @@ describe('VotingPageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ VotingPageComponent ]
-    })
-    .compileComponents();
+      declarations: [VotingPageComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

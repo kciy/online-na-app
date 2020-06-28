@@ -1,54 +1,130 @@
 <div class="page">
-    <div class="vid-container">
-        <iframe id="youtube-link" width="560" height="340" src="https://www.youtube.com/embed/3aXdNS8PWmU"
-            frameborder="0" allowfullscreen>This browser does not support iframe.</iframe>
-    </div>
-    <div class="tabs-container">
-        <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
-            <mat-tab label="Live Agenda" class="mat-tab contain">
-                <app-agenda-explorer></app-agenda-explorer>
-            </mat-tab>
-            <mat-tab label="How to ask a question">
-                <div class="guide">
-                    <p>You can only <b>ask questions</b> as a registered participant in the designated Slack channel. You
-                        have received the invitation link in your email.</p>
-                    <br>
-                    <p>1. Wait for the CT to open the question round by a post in the channel.</p>
-                    <p>2. Make one post per question. Direct your question by adding a tag (e.g. [@legal team]) to your
-                        question.
-                    </p>
-                    <p>3. Wait for the CT to respond to your question with an emoji:</p>
-                    <ul>
-                        <li><img src="../../assets/icons/check.png" alt="check-emoji" width="17" class="emoji"> Check:
-                            question will be asked in the conference</li>
-                        <li><img src="../../assets/icons/cross.png" alt="cross-emoji" width="17" class="emoji"> Nope:
-                            question rejected and will not be asked</li>
-                        <li><img src="../../assets/icons/repeat.png" alt="repeat-emoji" width="17" class="emoji">
-                            Repeat: question has already been asked</li>
-                        <li><img src="../../assets/icons/soon.png" alt="soon-emoji" width="17" class="emoji"> Soon:
-                            question will be asked soon in the conference</li>
-                        <!-- <li><img src="../../assets/icons/gray-exclamation.png" alt="exclamation-emoji" width="17" class="emoji">Exclamation mark (on replies only): your post is marked as a comment</li> -->
-                    </ul>
-                    <p>4. Show your support to other questions with a thumbs up <img
-                            src="../../assets/icons/thumbs-up.png" alt="thumbs-up" width="17" class="emoji">.</p>
-                    <!-- <img src="../../assets/img/slack-guide-emojis.JPG" alt="Slack Guide" class="slack-img"> -->
-                </div>
-            </mat-tab>
-            <mat-tab label="Socialise">
-                <div class="guide" style="text-align: center;">
-                    <h3>Meet the other listeners!</h3>
-                    <p><a href="https://chat.whatsapp.com/KfaGwYDG9x4H01H9hZbp9s" class="footer-link link"
-                            target="_blank">WhatsApp Spam Group</a></p>
-                    <p><a href="https://join.slack.com/share/zt-evwuqagm-3cPmKd003BPuSuo5xRF3aQ" target="_blank"
-                            class="footer-link link">Slack Channel #on-air2020</a></p>
-                    <p><a href="https://discordapp.com/invite/8yjMYMA" target="_blank" class="footer-link link">ESN GERmany
-                            Corona Shelter Discord Server</a></p>
-                    <p>Sign up for the <a class="footer-link link" href="https://docs.google.com/forms/d/e/1FAIpQLSfsvVZcaTYD46KfL8z8aUdiSQSR-UuXrB8pRdVdRp3js07EFQ/viewform" target="_blank">pubquiz (useless knowledge edition)</a> on Saturday 8 p.m.!</p>
-                    <p>In person</p>
-                    <p>...</p>
-                </div>
-            </mat-tab>
-        </mat-tab-group>
-    </div>
-    <app-footer></app-footer>
+  <div class="vid-container">
+    <iframe
+      id="youtube-link"
+      width="560"
+      height="340"
+      src="https://www.youtube.com/embed/3aXdNS8PWmU"
+      frameborder="0"
+      allowfullscreen
+      >This browser does not support iframe.</iframe
+    >
+  </div>
+  <div class="tabs-container">
+    <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+      <mat-tab label="Live Agenda" class="mat-tab contain">
+        <app-agenda-explorer></app-agenda-explorer>
+      </mat-tab>
+      <mat-tab label="How to ask a question">
+        <div class="guide">
+          <p>
+            You can only <b>ask questions</b> as a registered participant in the
+            designated Slack channel. You have received the invitation link in
+            your email.
+          </p>
+          <br />
+          <p>
+            1. Wait for the CT to open the question round by a post in the
+            channel.
+          </p>
+          <p>
+            2. Make one post per question. Direct your question by adding a tag
+            (e.g. [@legal team]) to your question.
+          </p>
+          <p>3. Wait for the CT to respond to your question with an emoji:</p>
+          <ul>
+            <li>
+              <img
+                src="../../assets/icons/check.png"
+                alt="check-emoji"
+                width="17"
+                class="emoji"
+              />
+              Check: question will be asked in the conference
+            </li>
+            <li>
+              <img
+                src="../../assets/icons/cross.png"
+                alt="cross-emoji"
+                width="17"
+                class="emoji"
+              />
+              Nope: question rejected and will not be asked
+            </li>
+            <li>
+              <img
+                src="../../assets/icons/repeat.png"
+                alt="repeat-emoji"
+                width="17"
+                class="emoji"
+              />
+              Repeat: question has already been asked
+            </li>
+            <li>
+              <img
+                src="../../assets/icons/soon.png"
+                alt="soon-emoji"
+                width="17"
+                class="emoji"
+              />
+              Soon: question will be asked soon in the conference
+            </li>
+            <!-- <li><img src="../../assets/icons/gray-exclamation.png" alt="exclamation-emoji" width="17" class="emoji">Exclamation mark (on replies only): your post is marked as a comment</li> -->
+          </ul>
+          <p>
+            4. Show your support to other questions with a thumbs up
+            <img
+              src="../../assets/icons/thumbs-up.png"
+              alt="thumbs-up"
+              width="17"
+              class="emoji"
+            />.
+          </p>
+          <!-- <img src="../../assets/img/slack-guide-emojis.JPG" alt="Slack Guide" class="slack-img"> -->
+        </div>
+      </mat-tab>
+      <mat-tab label="Socialise">
+        <div class="guide" style="text-align: center;">
+          <h3>Meet the other listeners!</h3>
+          <p>
+            <a
+              href="https://chat.whatsapp.com/KfaGwYDG9x4H01H9hZbp9s"
+              class="footer-link link"
+              target="_blank"
+              >WhatsApp Spam Group</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://join.slack.com/share/zt-evwuqagm-3cPmKd003BPuSuo5xRF3aQ"
+              target="_blank"
+              class="footer-link link"
+              >Slack Channel #on-air2020</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://discordapp.com/invite/8yjMYMA"
+              target="_blank"
+              class="footer-link link"
+              >ESN GERmany Corona Shelter Discord Server</a
+            >
+          </p>
+          <p>
+            Sign up for the
+            <a
+              class="footer-link link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfsvVZcaTYD46KfL8z8aUdiSQSR-UuXrB8pRdVdRp3js07EFQ/viewform"
+              target="_blank"
+              >pubquiz (useless knowledge edition)</a
+            >
+            on Saturday 8 p.m.!
+          </p>
+          <p>In person</p>
+          <p>...</p>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+  <app-footer></app-footer>
 </div>
