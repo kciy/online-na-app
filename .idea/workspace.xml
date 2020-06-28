@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b2b29c-e81c-47bf-a0fb-978b16d2efb8" name="Default Changelist" comment="Commit changes before update">
-      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+    <list default="true" id="f6b2b29c-e81c-47bf-a0fb-978b16d2efb8" name="Default Changelist" comment="Update the browserlist to match angular 10">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +153,7 @@
       <workItem from="1593202522678" duration="793000" />
       <workItem from="1593261083873" duration="628000" />
       <workItem from="1593262867705" duration="10226000" />
-      <workItem from="1593326534187" duration="5234000" />
+      <workItem from="1593326534187" duration="5382000" />
     </task>
     <task id="LOCAL-00001" summary="Update for the voting info page">
       <created>1592470740494</created>
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593331482008</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update the browserlist to match angular 10">
+      <created>1593331826607</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593331826607</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +268,8 @@
     <MESSAGE value="Add prettier and webstorm config" />
     <MESSAGE value="Apply code style" />
     <MESSAGE value="Commit changes before update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit changes before update" />
+    <MESSAGE value="Update the browserlist to match angular 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the browserlist to match angular 10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="562" y="608" key="GitRewordDialog" timestamp="1592652781290">
