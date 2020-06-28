@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6b2b29c-e81c-47bf-a0fb-978b16d2efb8" name="Default Changelist" comment="Add update notification to ensure that the cache doesn't mess with us">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/online-na-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1d7aymYDDBUJvooevIy3b6aJen0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elections" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\hedde\WebstormProjects\online-na-app\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\hedde\WebstormProjects\online-na-app\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hedde\WebstormProjects\online-na-app\elections" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hedde\WebstormProjects\online-na-app\elections" />
+      <recent name="C:\Users\hedde\WebstormProjects\online-na-app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (online-na-app)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (online-na-app)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.predeploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6b2b29c-e81c-47bf-a0fb-978b16d2efb8" name="Default Changelist" comment="" />
+      <created>1591778841089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591778841089</updated>
+      <workItem from="1591778842628" duration="1192000" />
+      <workItem from="1591780433090" duration="2204000" />
+      <workItem from="1591789521874" duration="12000" />
+      <workItem from="1592241338671" duration="1496000" />
+      <workItem from="1592468024128" duration="3561000" />
+      <workItem from="1592648841150" duration="4398000" />
+      <workItem from="1592735401226" duration="1263000" />
+      <workItem from="1592990719908" duration="1461000" />
+      <workItem from="1593202522678" duration="793000" />
+      <workItem from="1593261083873" duration="628000" />
+      <workItem from="1593262867705" duration="10226000" />
+      <workItem from="1593326534187" duration="3838000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update for the voting info page">
+      <created>1592470740494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592470740494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor app to use @angular/fire instead of the general library&#10;&#10;Also enables the ng deploy command to run productin deployments">
+      <created>1592652758185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592652758185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove newly tracked webstorm config">
+      <created>1592652995743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592652995743</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove animation from the election page">
+      <created>1592736041712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592736041712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Filter the election status and sort them correctly&#10;&#10;As the server admin was in no condition to change this">
+      <created>1593203268462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593203268462</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add voting results display&#10;&#10;+ Adds the csv files that contain the results&#10;+ Adds a parser to transform those files into a more usable format&#10;+ Adds UI to display the results on desktop and mobile">
+      <created>1593328872301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593328872301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add update notification to ensure that the cache doesn't mess with us">
+      <created>1593329705354</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593329705354</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update for the voting info page" />
+    <MESSAGE value="Refactor app to use @angular/fire instead of the general library&#10;&#10;Also enables the ng deploy command to run production deployments" />
+    <MESSAGE value="Remove newly tracked webstorm config" />
+    <MESSAGE value="Remove animation from the election page" />
+    <MESSAGE value="Filter the election status and sort them correctly&#10;&#10;As the server admin was in no condition to change this" />
+    <MESSAGE value="Add voting results display&#10;&#10;+ Adds the csv files that contain the results&#10;+ Adds a parser to transform those files into a more usable format&#10;+ Adds UI to display the results on desktop and mobile" />
+    <MESSAGE value="Add update notification to ensure that the cache doesn't mess with us" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add update notification to ensure that the cache doesn't mess with us" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="562" y="608" key="GitRewordDialog" timestamp="1592652781290">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="562" y="608" key="GitRewordDialog/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1592652781290" />
+    <state width="1696" height="383" key="GridCell.Tab.0.bottom" timestamp="1593328644576">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1696" height="383" key="GridCell.Tab.0.bottom/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644576" />
+    <state width="1696" height="383" key="GridCell.Tab.0.center" timestamp="1593328644576">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1696" height="383" key="GridCell.Tab.0.center/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644576" />
+    <state width="1696" height="383" key="GridCell.Tab.0.left" timestamp="1593328644575">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1696" height="383" key="GridCell.Tab.0.left/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644575" />
+    <state width="1696" height="383" key="GridCell.Tab.0.right" timestamp="1593328644576">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1696" height="383" key="GridCell.Tab.0.right/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593328644576" />
+    <state x="639" y="322" key="RollbackChangesDialog" timestamp="1593261705141">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="639" y="322" key="RollbackChangesDialog/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593261705141" />
+    <state x="361" y="348" key="SettingsEditor" timestamp="1593330375468">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="361" y="348" key="SettingsEditor/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593330375468" />
+    <state x="407" y="587" key="VCS.ChangelistChooser" timestamp="1592652933495">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="407" y="587" key="VCS.ChangelistChooser/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1592652933495" />
+    <state x="1904" y="378" key="Vcs.Push.Dialog.v2" timestamp="1593329713272">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1904" y="378" key="Vcs.Push.Dialog.v2/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593329713272" />
+    <state x="667" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593329962742">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="-2926" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3240.0.1620.1060/0.0.3440.1400@-3240.0.1620.1060" timestamp="1593261147109" />
+    <state x="667" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593329962742" />
+    <state x="568" y="420" width="583" height="566" key="find.popup" timestamp="1592651344414">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="568" y="420" width="583" height="566" key="find.popup/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1592651344414" />
+    <state x="575" y="334" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592468508014">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="575" y="334" key="git4idea.branch.GitSmartOperationDialog/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1592468508014" />
+    <state x="660" y="599" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1592468677761">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="660" y="599" key="git4idea.remote.GitConfigureRemotesDialog/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1592468677761" />
+    <state x="523" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1593326841917">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="523" y="320" width="672" height="678" key="search.everywhere.popup/-3240.0.1620.1060/0.0.3440.1400@0.0.3440.1400" timestamp="1593326841917" />
+  </component>
+</project>
