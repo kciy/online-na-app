@@ -39,7 +39,8 @@
     margin: 0;
   }
   p {
-    background: lightblue;
+    color: var(--results-columns-text);
+    background: var(--results-columns); //#add8e6;
     padding: 0 4px;
   }
 }
@@ -58,6 +59,16 @@
 .mat-card-subtitle {
   color: var(--primary-link) !important;
   background: var(--background-card);
+}
+
+.mat-expansion-panel,
+.mat-panel-title {
+  color: var(--primary-text);
+  background: var(--background-card);
+}
+
+.mat-expansion-panel-header-title {
+  color: var(--primary-text) !important;
 }
 
 .link {

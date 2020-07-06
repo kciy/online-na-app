@@ -16,6 +16,9 @@ export const light: Theme = {
     '--link': 'blue',
     '--card-border': '#f3f3f3',
     '--footer-text': '#010101',
+
+    '--results-columns': '#add8e6',
+    '--results-columns-text': '#010101',
   },
 };
 
@@ -32,5 +35,8 @@ export const dark: Theme = {
     '--link': '#f47b20',
     '--card-border': '#8c8c8c',
     '--footer-text': '#f3f3f3',
+
+    '-results-columns': '#98daff',
+    '--results-columns-text': '#010101',
   },
 };
