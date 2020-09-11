@@ -67,6 +67,10 @@
   background: var(--background-card);
 }
 
+h2 {
+  color: var(--primary-text);
+}
+
 .mat-expansion-panel-header-title {
   color: var(--primary-text) !important;
 }
