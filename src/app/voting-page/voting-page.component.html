@@ -11,9 +11,8 @@
           Voting is reserved for those with a <b>vote delegation</b>. We start
           with a quorum check on Saturday morning and you will receive an email
           with a link to the voting platform
-          <a href="https://vote.esn-germany.de" target="_blank" class="link"
-            >vote.esn-germany.de</a
-          >. You will receive the vote invitation and all instructions via email
+          <a href="https://vote.esn-germany.de" target="_blank" class="link">vote.esn-germany.de</a>. You will receive
+          the vote invitation and all instructions via email
           and below you find the results.
         </p>
       </mat-card-content>
@@ -23,29 +22,18 @@
     <mat-card class="card elections">
       <mat-card-title-group>
         <mat-card-title>Election status</mat-card-title>
-        <mat-card-subtitle
-          >Last updated at
-          {{ lastUpdate$ | async | date: 'mediumTime' }}</mat-card-subtitle
-        >
+        <mat-card-subtitle>Last updated at
+          {{ lastUpdate$ | async | date: 'mediumTime' }}</mat-card-subtitle>
       </mat-card-title-group>
       <mat-card-content>
         <p>Hint: Pink elections are still in progress</p>
-        <div
-          *ngFor="let result of results$ | async; trackBy: trackById"
-          class="result"
-        >
+        <div *ngFor="let result of results$ | async; trackBy: trackById" class="result">
           <h2>
             {{ result.name }}
-            <small style="color: gray;"
-              >{{ result.vote }} of {{ result.total }} votes cast</small
-            >
+            <small style="color: gray;">{{ result.vote }} of {{ result.total }} votes cast</small>
           </h2>
-          <mat-progress-bar
-            mode="determinate"
-            [value]="result.progress"
-            [color]="result.active ? 'accent' : 'primary'"
-            style="height: 1rem;"
-          ></mat-progress-bar>
+          <mat-progress-bar mode="determinate" [value]="result.progress" [color]="result.active ? 'accent' : 'primary'"
+            style="height: 1rem;"></mat-progress-bar>
         </div>
       </mat-card-content>
     </mat-card>
@@ -62,40 +50,29 @@
         <mat-card-subtitle>{{ vote.question.de }}</mat-card-subtitle>
       </mat-card-title-group>
       <mat-card-content fxHide fxShow.lt-md class="results">
-        <div fxLayout="column" fxLayoutGap="1rem">
-          <div
-            *ngFor="let answer of vote.answers; let i = index"
-            style="width: {{
+        <div fxLayout="column" fxLayoutGap="1rem" class="votings">
+          <div *ngFor="let answer of vote.answers; let i = index" class="voting-columns" style="width: {{
               ((vote.results[answer.id]?.length || 0) / 35) * 100
-            }}%; background: lightblue; padding: 4px; border-radius: 4px;"
-          >
+            }}%;padding: 4px; border-radius: 4px;">
             <h4 style="white-space: nowrap;">
               {{ answer.de }} ({{ vote.results[answer.id]?.length || 0 }})
             </h4>
             <h4>{{ answer.en }}</h4>
           </div>
-          <div
-            style="width: {{
+          <div class="voting-columns" style="width: {{
               ((vote.results.none.length || 0) / 35) * 100
-            }}%; background: lightblue; padding: 4px; border-radius: 4px"
-          >
+            }}%; padding: 4px; border-radius: 4px">
             <h4>Keine ({{ vote.results.none?.length || 0 }})</h4>
             <h4>None</h4>
           </div>
         </div>
         <div style="margin-top: 1rem;">
-          <em
-            >Hint: to see the section votes, open this page on a wider
-            screen</em
-          >
+          <em>Hint: to see the section votes, open this page on a wider
+            screen</em>
         </div>
       </mat-card-content>
       <mat-card-content class="results" fxHide.lt-md>
-        <div
-          style="margin: 0 8px;"
-          gdAuto="dense"
-          gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)"
-        >
+        <div style="margin: 0 8px;" gdAuto="dense" gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)">
           <ng-container *ngFor="let answer of vote.answers; let i = index">
             <h4 gdColumn="{{ i + 1 }}">
               {{ answer.de }} ({{ vote.results[answer.id]?.length || 0 }})
@@ -109,35 +86,23 @@
           <h4 gdColumn="{{ vote.answers.length + 1 }}">None</h4>
           <!--                    <p gdColumn="{{vote.answers.length+1}}" *ngFor="let section of vote.results.none">{{section}}</p>-->
         </div>
-        <mat-expansion-panel
-          style="margin: 1rem -1rem -1rem -1rem;"
-          class="mat-elevation-z0"
-        >
+        <mat-expansion-panel style="margin: 1rem -1rem -1rem -1rem;" class="mat-elevation-z0">
           <mat-expansion-panel-header>
             <mat-panel-title>
               Section Votes
             </mat-panel-title>
           </mat-expansion-panel-header>
-          <div
-            gdAuto="dense"
-            gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)"
-          >
+          <div gdAuto="dense" gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)">
             <ng-container *ngFor="let answer of vote.answers; let i = index">
               <!--                            <h4 gdColumn="{{i+1}}">{{answer.de}} ({{vote.results[answer.id]?.length || 0}})</h4>-->
               <!--                            <h4 gdColumn="{{i+1}}">{{answer.en}}</h4>-->
-              <p
-                gdColumn="{{ i + 1 }}"
-                *ngFor="let section of vote.results[answer.id]"
-              >
+              <p gdColumn="{{ i + 1 }}" *ngFor="let section of vote.results[answer.id]">
                 {{ section }}
               </p>
             </ng-container>
             <!--                        <h4 gdColumn="{{vote.answers.length+1}}">Keine  ({{vote.results.none?.length || 0}})</h4>-->
             <!--                        <h4 gdColumn="{{vote.answers.length+1}}">None</h4>-->
-            <p
-              gdColumn="{{ vote.answers.length + 1 }}"
-              *ngFor="let section of vote.results.none"
-            >
+            <p gdColumn="{{ vote.answers.length + 1 }}" *ngFor="let section of vote.results.none">
               {{ section }}
             </p>
           </div>
