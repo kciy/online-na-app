@@ -1,0 +1,19 @@
+@import '../../styles.scss';
+
+.page {
+  padding: 64px 0 0 0;
+  font-family: Lato;
+  background: var(--background);
+}
+
+.text-container {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: left;
+  color: var(--primary-text);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--link);
+}

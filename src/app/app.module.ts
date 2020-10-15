@@ -12,6 +12,7 @@ import { LivePageComponent } from './live-page/live-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { VotingPageComponent } from './voting-page/voting-page.component';
 import { DocumentsPageComponent } from './documents-page/documents-page.component';
+import { ImprintPageComponent } from './imprint-page/imprint-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 import { AngularFireModule } from '@angular/fire';
@@ -43,6 +44,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NotFoundPageComponent,
     VotingPageComponent,
     DocumentsPageComponent,
+    ImprintPageComponent,
     AgendaExplorerComponent,
     FooterComponent,
   ],
