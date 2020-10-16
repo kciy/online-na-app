@@ -38,8 +38,12 @@
       </mat-card-content>
     </mat-card>
   </div>
-  <div fxLayout="column" fxLayoutGap="2rem" style="padding: 1rem; max-width: 1600px; margin: 0 auto;">
-    <h2>Election results</h2>
+  <div
+    fxLayout="column"
+    fxLayoutGap="2rem"
+    style="padding: 1rem; max-width: 1600px; margin: 0 auto;"
+  >
+    <!--    <h2>Election results</h2>-->
     <mat-card *ngFor="let vote of votes$ | async">
       <mat-card-title-group>
         <mat-card-title>{{ vote.question.en }}</mat-card-title>
