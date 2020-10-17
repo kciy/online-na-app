@@ -62,16 +62,16 @@ AO03,Abstain,en
 AO01,Ja,de-informal
 AO02,Nein,de-informal
 AO03,Enthaltung,de-informal
-Q3,Wählt ihr Jana Borchardt (NB) als Ombudsperson für diese Mitgliederversammlung?,de-informal
-Q3,Do you elect Jana Borchardt (NB) as ombudsperson for this National Assembly?,en
+Q3,Wählt ihr Milan Grigull (NB) als Ombudsperson für diese Mitgliederversammlung?,de-informal
+Q3,Do you elect Milan Grigull (NB) as ombudsperson for this National Assembly?,en
 AO01,Yes,en
 AO02,No,en
 AO03,Abstain,en
 AO01,Ja,de-informal
 AO02,Nein,de-informal
 AO03,Enthaltung,de-informal
-Q4,Wählt ihr Milan Grigull (NB) als Ombudsperson für diese Mitgliederversammlung?,de-informal
-Q4,Do you elect Milan Grigull (NB) as ombudsperson for this National Assembly?,en
+Q4,Wählt ihr Jana Borchardt (NB) als Ombudsperson für diese Mitgliederversammlung?,de-informal
+Q4,Do you elect Jana Borchardt (NB) as ombudsperson for this National Assembly?,en
 AO01,Yes,en
 AO02,No,en
 AO03,Abstain,en
@@ -86,32 +86,8 @@ AO03,Abstain,en
 AO01,Ja,de-informal
 AO02,Nein,de-informal
 AO03,Enthaltung,de-informal
-Q1,Habt ihr euch die neuen mega irre geilen ESN Germany Badelatschen geholt?,de-informal
-Q1,Did you get the amazing ESN Germany slippers?,en
-AO01,Yes, and I only wear them in combination with my high white socks!,en
-AO02,No, I prefer to wear socks only - especially in winter!,en
-AO03,Cheesecake,en
-AO01,Ja, und ich trage sie nur in Kombination mit meinen hohen, weißen Socken!,de-informal
-AO02,Nein, ich laufe lieber nur in Socken draußen rum - vor allem im Winter!,de-informal
-AO03,Käsekuchen,de-informal
-Q1,Stimmt ihr dem Antrag zu, das AGM aus dem EPP zu streichen?,de-informal
-Q1,Do you agree to the proposal “Removal of AGM”?,en
-AO01,Yes,en
-AO02,No,en
-AO03,Abstain,en
-AO01,Ja,de-informal
-AO02,Nein,de-informal
-AO03,Enthaltung,de-informal
-Q2,Stimmt ihr dem Antrag “Spots für Regional Coordinator bei NAs” zu?,de-informal
-Q2,Do you agree to the proposal “Regional Coordinator Spots for NAs”?,en
-AO01,Yes,en
-AO02,No,en
-AO03,Abstain,en
-AO01,Ja,de-informal
-AO02,Nein,de-informal
-AO03,Enthaltung,de-informal
-Q1,Stimmt ihr zu “LEI Konstanz” als neues Mitglied des ESN Deutschland e.V. zum Ende dieser Mitgliederversammlung mit aufzunehmen und sie zur Südwestregion hinzuzufügen?,de-informal
-Q1,Do you agree to accept “LEI Konstanz” as a new member of ESN Deutschland e.V. after the end of this National Assembly and to add it to the South-West region?,en
+Q1,Wählt ihr Inès Leimgruber (ESN Bonn) als Ombudsperson für diese Mitgliederversammlung?,de-informal
+Q1,Do you elect Inès Leimgruber (ESN Bonn) as ombudsperson for this National Assembly?,en
 AO01,Yes,en
 AO02,No,en
 AO03,Abstain,en

@@ -76,14 +76,10 @@ for (const entry of parsedAnswers) {
   }
 }
 const exportFiles = [
-  'results_99990.csv',
-  'results_99992.csv',
-  'results_99994.csv',
-  'results_99996.csv',
-  'results_99997.csv',
-  'results_100000.csv',
-  'results_100001.csv',
-  'results_100002.csv',
+  'results_200000.csv',
+  'results_200005.csv',
+  'results_200010.csv',
+  'results_200011.csv',
 ];
 
 exportFiles.map((file) => {
