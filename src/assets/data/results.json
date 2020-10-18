@@ -816,5 +816,278 @@
         "ESN Witten/Herdecke"
       ]
     }
+  },
+  {
+    "question": {
+      "de": "Habt ihr euch die neuen mega irre geilen ESN Germany Badelatschen geholt?",
+      "en": "Did you get the amazing ESN Germany slippers?"
+    },
+    "answers": [
+      {
+        "en": "Yes and I only wear them in combination with my high white socks!",
+        "de": "Ja und ich trage sie nur in Kombination mit meinen hohen weißen Socken!",
+        "id": "AO01"
+      },
+      {
+        "en": "No I prefer to wear socks only - especially in winter!",
+        "de": "Nein ich laufe lieber nur in Socken draußen rum - vor allem im Winter!",
+        "id": "AO02"
+      },
+      {
+        "en": "Cheesecake",
+        "de": "Käsekuchen.",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN Bayreuth",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Koblenz",
+        "ESN LEI Rostock",
+        "ESN Potsdam",
+        "ESN Stuttgart",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
+      ],
+      "AO03": [
+        "ESN Augsburg",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Göttingen",
+        "ESN Hildesheim",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI STEP Kaiserslautern"
+      ],
+      "AO02": [
+        "ESN Bochum",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Freiburg",
+        "ESN Halle (Saale)",
+        "ESN Heidelberg",
+        "ESN Jena",
+        "ESN Saarbrücken",
+        "ESN Siegen",
+        "ESN TU Dresden",
+        "ESN Witten/Herdecke"
+      ],
+      "AO01": [
+        "ESN AKI Deggendorf",
+        "ESN Hamburg",
+        "ESN Ingolstadt",
+        "ESN MESA München"
+      ]
+    }
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dem Antrag 'Spots für Regional Coordinator bei NAs' zu?",
+      "en": "Do you agree to the proposal 'Regional Coordinator Spots for NAs'?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN Bayreuth",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Koblenz",
+        "ESN LEI Rostock",
+        "ESN Potsdam",
+        "ESN Stuttgart",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
+      ],
+      "AO01": [
+        "ESN AKI Deggendorf",
+        "ESN Augsburg",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Düsseldorf",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Saarbrücken",
+        "ESN Siegen",
+        "ESN TU Dresden",
+        "ESN Witten/Herdecke"
+      ],
+      "AO03": ["ESN Dortmund", "ESN Erasmix Medizin Berlin", "ESN Freiburg"],
+      "AO02": ["ESN Hildesheim"]
+    }
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr dem Antrag zu, das AGM aus dem EPP zu streichen?",
+      "en": "Do you agree to the proposal 'Removal of AGM'?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN Bayreuth",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Koblenz",
+        "ESN LEI Rostock",
+        "ESN Potsdam",
+        "ESN Stuttgart",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
+      ],
+      "AO01": [
+        "ESN AKI Deggendorf",
+        "ESN Augsburg",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Siegen",
+        "ESN TU Dresden"
+      ],
+      "AO03": ["ESN Erasmix Medizin Berlin", "ESN Saarbrücken"],
+      "AO02": ["ESN Witten/Herdecke"]
+    }
+  },
+  {
+    "question": {
+      "de": "Stimmt ihr zu 'LEI Konstanz' als neues Mitglied des ESN Deutschland e.V. zum Ende dieser Mitgliederversammlung mit aufzunehmen und sie zur Südwestregion hinzuzufügen?",
+      "en": "Do you agree to accept 'LEI Konstanz' as a new member of ESN Deutschland e.V. after the end of this National Assembly and to add it to the South-West region?"
+    },
+    "answers": [
+      {
+        "en": "Yes",
+        "de": "Ja",
+        "id": "AO01"
+      },
+      {
+        "en": "No",
+        "de": "Nein",
+        "id": "AO02"
+      },
+      {
+        "en": "Abstain",
+        "de": "Enthaltung",
+        "id": "AO03"
+      }
+    ],
+    "results": {
+      "none": [
+        "ESN Bayreuth",
+        "ESN Frankfurt (Oder)",
+        "ESN Frankfurt am Main",
+        "ESN Hannover e.V",
+        "ESN HTW Dresden",
+        "ESN IPAS Landau",
+        "ESN Karlsruhe",
+        "ESN Koblenz",
+        "ESN LEI Rostock",
+        "ESN Potsdam",
+        "ESN Stuttgart",
+        "ESN TUMi München",
+        "ESN VISUM Mannheim"
+      ],
+      "AO01": [
+        "ESN AKI Deggendorf",
+        "ESN Augsburg",
+        "ESN Bochum",
+        "ESN Bonn",
+        "ESN Braunschweig",
+        "ESN Darmstadt",
+        "ESN Dortmund",
+        "ESN Düsseldorf",
+        "ESN Erasmix Medizin Berlin",
+        "ESN Freiburg",
+        "ESN Göttingen",
+        "ESN Halle (Saale)",
+        "ESN Hamburg",
+        "ESN Heidelberg",
+        "ESN Hildesheim",
+        "ESN Ingolstadt",
+        "ESN Jena",
+        "ESN Kiel",
+        "ESN Köln",
+        "ESN LEI Greifswald",
+        "ESN LEI STEP Kaiserslautern",
+        "ESN MESA München",
+        "ESN Saarbrücken",
+        "ESN Siegen",
+        "ESN TU Dresden",
+        "ESN Witten/Herdecke"
+      ]
+    }
   }
 ]

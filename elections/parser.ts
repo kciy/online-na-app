@@ -80,6 +80,8 @@ const exportFiles = [
   'results_200005.csv',
   'results_200010.csv',
   'results_200011.csv',
+  'results_200015.csv',
+  'results_200020.csv',
 ];
 
 exportFiles.map((file) => {
