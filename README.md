@@ -1,11 +1,10 @@
 # Online NA Web App
 
-This is the source code for the [ESN Germany website](onair2020.esn-germany.de) dedicated to online national assemblies.
+This is the source code for the [ESN Germany website](onair2021.esn-germany.de) dedicated to online national assemblies.
 
 ## Content
 
 The website provides information about deadlines, the chairing team, social media channels, links, candidates and important documents. A live agenda is implemented on the live-page and the voting results are available on the voting-page directly loaded via LimeSurvey.
-
 
 ## Development
 
