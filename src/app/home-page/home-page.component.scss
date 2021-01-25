@@ -44,6 +44,7 @@ h2 {
 .ct-container {
   margin: 0 auto;
   padding: 0 32px;
+  width: 50%;
 }
 
 .accordion-container {
@@ -110,5 +111,10 @@ h2 {
     margin: 4px 0;
     width: 90%;
     min-width: 0;
+  }
+
+  .ct-container {
+    padding: 0;
+    width: 100%;
   }
 }
