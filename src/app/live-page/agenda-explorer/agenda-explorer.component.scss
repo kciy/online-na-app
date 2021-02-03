@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.cal {
+  vertical-align: -3px;
+}
+
 .agenda-card,
 .mat-expansion-panel {
   display: block;
@@ -68,7 +72,7 @@
 }
 
 .icon {
-  vertical-align: text-top;
+  // vertical-align: text-top;
   color: var(--link);
 }
 
