@@ -54,13 +54,13 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
     };
     const saturdayRequest = this.http
       .get<{ values: any[] }>(
-        'https://sheets.googleapis.com/v4/spreadsheets/1xU3TH1MD9uwrA7E48DOhuy9dJDmjdGrVUk2EX9tj81k/values/Saturday!A2:H36',
+        'https://sheets.googleapis.com/v4/spreadsheets/1FdwFeTNmr-47KpY4hMvKBNqDMfgg88eEk9zb-crCDt0/values/Saturday!A2:H36',
         options
       )
       .pipe(retry(5));
     const sundayRequest = this.http
       .get<{ values: any[] }>(
-        'https://sheets.googleapis.com/v4/spreadsheets/1xU3TH1MD9uwrA7E48DOhuy9dJDmjdGrVUk2EX9tj81k/values/Sunday!A2:H26',
+        'https://sheets.googleapis.com/v4/spreadsheets/1FdwFeTNmr-47KpY4hMvKBNqDMfgg88eEk9zb-crCDt0/values/Sunday!A2:H26',
         options
       )
       .pipe(retry(5));
