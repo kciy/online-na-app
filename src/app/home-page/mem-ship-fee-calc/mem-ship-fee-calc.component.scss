@@ -1,0 +1,50 @@
+@import '../../../styles.scss';
+
+.page {
+  padding: 0 0 32px;
+  font-family: Lato;
+  background: var(--background);
+}
+
+.text {
+  color: var(--primary-text);
+}
+
+.tbold {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.input {
+  background: var(--button-background);
+  border: 1px solid var(--button-border);
+  border-radius: 4px;
+  padding: 4px;
+  color: var(--primary-text);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  background: var(--button-background);
+  border: 1px solid var(--button-border);
+  color: var(--primary-text);
+  border-radius: 4px;
+  padding: 4px;
+  margin: 8px;
+  min-width: 40px;
+
+  &:hover {
+    background: var(--button-background-hover);
+    color: var(--primary-text-inverted);
+    cursor: pointer;
+  }
+}
+
+.icon {
+  vertical-align: -4px;
+  color: var(--primary-text);
+  margin-right: 8px;
+}
