@@ -12,10 +12,12 @@ import { LivePageComponent } from './live-page/live-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { VotingPageComponent } from './voting-page/voting-page.component';
 import { DocumentsPageComponent } from './documents-page/documents-page.component';
+import { MemShipFeeCalcComponent } from './home-page/mem-ship-fee-calc/mem-ship-fee-calc.component';
 import { ImprintPageComponent } from './imprint-page/imprint-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 import { AngularFireModule } from '@angular/fire';
+import { FormsModule } from '@angular/forms';
 import {
   AngularFireAnalyticsModule,
   ScreenTrackingService,
@@ -35,6 +37,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     }),
     SharedModule,
     FlexLayoutModule,
+    FormsModule,
     AppRoutingModule,
   ],
   declarations: [
@@ -47,6 +50,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ImprintPageComponent,
     AgendaExplorerComponent,
     FooterComponent,
+    MemShipFeeCalcComponent,
   ],
   providers: [ScreenTrackingService],
   bootstrap: [AppComponent],
