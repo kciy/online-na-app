@@ -1,0 +1,44 @@
+<div class="page">
+  <form #heiForm="ngForm" (ngSubmit)="getUpdatedFee()">
+    <div>
+      <p class="text">
+        As described in the SOS proposal about the new membership fee, we want
+        to give you the opportunity to calculate your section's new membership
+        fee here. Per HEI (Higher Education Institution), enter the number of
+        outgoings of the year 2018.
+      </p>
+      <section *ngFor="let hei of heis; let i = index">
+        <div>
+          <label class="text"><mat-icon class="icon">school</mat-icon> </label>
+          <input
+            type="number"
+            placeholder="Outgoings of HEI #{{ i + 1 }}"
+            [(ngModel)]="hei.outgoings"
+            name="hei{{ hei.id }}"
+            class="input"
+          />
+          <button class="btn" type="button" (click)="addHei()">+</button>
+          <button
+            *ngIf="i > 0"
+            class="btn"
+            type="button"
+            (click)="removeHei(i)"
+          >
+            -
+          </button>
+        </div>
+      </section>
+      <br />
+      <button class="btn" type="submit" (click)="getFee(2021)">
+        Calculate for 2021
+      </button>
+      <button class="btn" type="submit" (click)="getFee(2022)">
+        Calculate for 2022
+      </button>
+      <button class="btn" type="submit" (click)="getFee(2023)">
+        Calculate from 2023
+      </button>
+      <p class="text tbold">Membership Fee: {{ sumFee | currency: 'EUR' }}</p>
+    </div>
+  </form>
+</div>
