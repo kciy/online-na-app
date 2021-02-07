@@ -43,6 +43,8 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {}
 
+  showMenu() {}
+
   toggleTheme() {
     if (this.themeService.isDarkTheme()) {
       this.themeService.setLightTheme();

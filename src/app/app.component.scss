@@ -79,6 +79,33 @@ body {
   cursor: pointer;
 }
 
+.display-on-large {
+  display: block;
+}
+
+.display-burger {
+  display: none;
+  float: right;
+  margin: 16px 16px 0 16px;
+}
+
+.menu {
+  background: #f98;
+  // color: '#fff';
+  border: '3px solid #f98';
+  border-radius: 4px;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#burger {
+  width: 3rem;
+  height: 3.5rem;
+}
+
 .footer-container {
   // display: inline-block;
   // position: absolute;
@@ -102,12 +129,18 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
-  // .topnav a,
-  // .topnav-right {
-  //   float: none;
+@media screen and (max-width: 714px) {
+  // .display-on-large {
+  //   display: none;
+  // }
+
+  // .display-burger {
   //   display: block;
   // }
+  .topnav a,
+  .topnav-right {
+    padding: 4px 8px;
+  }
 
   // .topnav-centered a {
   //   position: relative;

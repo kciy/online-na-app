@@ -24,6 +24,7 @@ import {
 } from '@angular/fire/analytics';
 import { FooterComponent } from './footer/footer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { LinksPageComponent } from './links-page/links-page.component';
 
 @NgModule({
   imports: [
@@ -51,6 +52,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AgendaExplorerComponent,
     FooterComponent,
     MemShipFeeCalcComponent,
+    LinksPageComponent,
   ],
   providers: [ScreenTrackingService],
   bootstrap: [AppComponent],
