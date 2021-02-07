@@ -1,0 +1,56 @@
+@import '../../styles.scss';
+
+.page {
+  padding: 64px 0 0 0;
+  font-family: Lato;
+  background: var(--background);
+}
+
+.text-container-p {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: left;
+  color: var(--primary-text);
+}
+
+.text-container {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: left;
+  color: var(--primary-text);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.mat-expansion-panel,
+.mat-card,
+.mat-card-subtitle {
+  color: var(--primary-text);
+  background: var(--background-card);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--link);
+}
+
+.icon {
+  font-size: 14px;
+  vertical-align: -2px;
+}
+
+.mat-card-container {
+  width: 320px;
+  margin: 16px;
+}
+
+.img {
+  line-height: 2em;
+}
+
+.ct-img {
+  max-width: 100%;
+  margin-bottom: 8px;
+  display: block;
+}
