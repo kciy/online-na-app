@@ -30,7 +30,7 @@
       </mat-card-title-group>
       <mat-card-content>
         <p>Hint: Pink elections are still in progress</p>
-        <!-- <div
+        <div
           *ngFor="let result of results$ | async; trackBy: trackById"
           class="result"
         >
@@ -46,7 +46,7 @@
             [color]="result.active ? 'accent' : 'primary'"
             style="height: 1rem"
           ></mat-progress-bar>
-        </div> -->
+        </div>
       </mat-card-content>
     </mat-card>
   </div>

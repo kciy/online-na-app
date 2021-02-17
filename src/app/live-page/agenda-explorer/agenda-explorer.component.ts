@@ -54,13 +54,15 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
     };
     const saturdayRequest = this.http
       .get<{ values: any[] }>(
-        'https://sheets.googleapis.com/v4/spreadsheets/1FdwFeTNmr-47KpY4hMvKBNqDMfgg88eEk9zb-crCDt0/values/Saturday!A2:H36',
+        'https://sheets.googleapis.com/v4/spreadsheets/2PACX-1vTYDFCByReAUj10QxIO7I0bAeDkiMmE7cmFk57aQSkFyLaQFvRx85L6B7g1XJT_jYSEakGqi9Zt_s6k/values/Saturday!D2:K36',
+        // 'https://sheets.googleapis.com/v4/spreadsheets/1FdwFeTNmr-47KpY4hMvKBNqDMfgg88eEk9zb-crCDt0/values/Saturday!D2:K36',
+        // 'https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTYDFCByReAUj10QxIO7I0bAeDkiMmE7cmFk57aQSkFyLaQFvRx85L6B7g1XJT_jYSEakGqi9Zt_s6k/pubhtml?urp=gmail_link&gxids=7628',
         options
       )
       .pipe(retry(5));
     const sundayRequest = this.http
       .get<{ values: any[] }>(
-        'https://sheets.googleapis.com/v4/spreadsheets/1FdwFeTNmr-47KpY4hMvKBNqDMfgg88eEk9zb-crCDt0/values/Sunday!A2:H26',
+        'https://sheets.googleapis.com/v4/spreadsheets/1FdwFeTNmr-47KpY4hMvKBNqDMfgg88eEk9zb-crCDt0/values/Sunday!D2:K26',
         options
       )
       .pipe(retry(5));
@@ -73,11 +75,11 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
           items.forEach((item) => {
             if (item[0]) {
               slots.push({
-                start: moment('13.02.2021', 'DD.MM.YYYY')
+                start: moment('14.02.2021', 'DD.MM.YYYY')
                   .add(index, 'day')
                   .hour(item[0].split(':')[0])
                   .minute(item[0].split(':')[1]),
-                end: moment('13.02.2021', 'DD.MM.YYYY')
+                end: moment('14.02.2021', 'DD.MM.YYYY')
                   .add(index, 'day')
                   .hour(item[1].split(':')[0])
                   .minute(item[1].split(':')[1]),
