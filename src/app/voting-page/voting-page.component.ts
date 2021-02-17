@@ -38,7 +38,7 @@ export class VotingPageComponent {
             (res) => !res.name.toLowerCase().includes('overview')
           ),
         ];
-        extraResults.sort((a, b) => a.id - b.id);
+        // extraResults.sort((a, b) => a.id - b.id);
         return extraResults;
       }),
       shareReplay(1)

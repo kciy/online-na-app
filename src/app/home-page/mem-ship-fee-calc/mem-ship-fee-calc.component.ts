@@ -60,6 +60,12 @@ export class MemShipFeeCalcComponent implements OnInit {
         break;
     }
     this.sumFee *= this.frac;
+    if (year == 2021 && this.sumFee > 75) {
+      this.sumFee = 75;
+    }
+    if (year == 2022 && this.sumFee > 225) {
+      this.sumFee = 225;
+    }
     return this.sumFee;
   }
 
