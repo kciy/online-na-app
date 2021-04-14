@@ -1,4 +1,14 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { TodosService } from '../services/todos.service';
+
+interface TodoItem {
+  id: string;
+  title: string;
+  active: boolean;
+  text: string;
+  order: number;
+}
 
 @Component({
   selector: 'app-home-page',
@@ -7,7 +17,18 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   preserveWhitespaces: true,
 })
 export class HomePageComponent implements OnInit {
-  constructor() {}
+  todoItemList: TodoItem[];
 
-  ngOnInit() {}
+  constructor(private title: Title, private todosService: TodosService) {}
+
+  ngOnInit() {
+    this.title.setTitle('ESN Germany - On Air');
+    this.getTodos();
+  }
+
+  getTodos(): void {
+    this.todosService
+      .fetchTodoList()
+      .subscribe((todoItemList) => (this.todoItemList = todoItemList));
+  }
 }

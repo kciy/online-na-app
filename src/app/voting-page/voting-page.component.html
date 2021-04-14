@@ -55,73 +55,110 @@
     fxLayoutGap="2rem"
     style="padding: 1rem; max-width: 1600px; margin: 0 auto"
   >
-    <!-- ---------------------------------------------- -->
-    <!-- <h2>Election results</h2> -->
-    <!-- <mat-card *ngFor="let vote of votes$ | async">
+    ----------------------------------------------
+    <h2>Election results</h2>
+    <mat-card *ngFor="let vote of votes$ | async">
       <mat-card-title-group>
         <mat-card-title>{{ vote.question.en }}</mat-card-title>
         <mat-card-subtitle>{{ vote.question.de }}</mat-card-subtitle>
       </mat-card-title-group>
       <mat-card-content fxHide fxShow.lt-md class="results">
         <div fxLayout="column" fxLayoutGap="1rem" class="votings">
-          <div *ngFor="let answer of vote.answers; let i = index" class="voting-columns" style="width: {{
+          <div
+            *ngFor="let answer of vote.answers; let i = index"
+            class="voting-columns"
+            style="width: {{
               ((vote.results[answer.id]?.length || 0) / 35) * 100
-            }}%;padding: 4px; border-radius: 4px;">
-            <h4 style="white-space: nowrap;">
+            }}%;padding: 4px; border-radius: 4px;"
+          >
+            <h4 style="white-space: nowrap">
               {{ answer.de }} ({{ vote.results[answer.id]?.length || 0 }})
             </h4>
             <h4>{{ answer.en }}</h4>
           </div>
-          <div class="voting-columns" style="width: {{
+          <div
+            class="voting-columns"
+            style="width: {{
               ((vote.results.none.length || 0) / 35) * 100
-            }}%; padding: 4px; border-radius: 4px">
+            }}%; padding: 4px; border-radius: 4px"
+          >
             <h4>Keine ({{ vote.results.none?.length || 0 }})</h4>
             <h4>None</h4>
           </div>
         </div>
-        <div style="margin-top: 1rem;">
-          <em>Hint: to see the section votes, open this page on a wider
-            screen</em>
+        <div style="margin-top: 1rem">
+          <em
+            >Hint: to see the section votes, open this page on a wider
+            screen</em
+          >
         </div>
       </mat-card-content>
       <mat-card-content class="results" fxHide.lt-md>
-        <div style="margin: 0 8px;" gdAuto="dense" gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)">
+        <div
+          style="margin: 0 8px"
+          gdAuto="dense"
+          gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)"
+        >
           <ng-container *ngFor="let answer of vote.answers; let i = index">
             <h4 gdColumn="{{ i + 1 }}">
               {{ answer.de }} ({{ vote.results[answer.id]?.length || 0 }})
             </h4>
             <h4 gdColumn="{{ i + 1 }}">{{ answer.en }}</h4>
-                                    <p gdColumn="{{i+1}}" *ngFor="let section of vote.results[answer.id]">{{section}}</p>-->
-    <!-- </ng-container>
+            <p
+              gdColumn="{{ i + 1 }}"
+              *ngFor="let section of vote.results[answer.id]"
+            >
+              {{ section }}
+            </p>
+          </ng-container>
           <h4 gdColumn="{{ vote.answers.length + 1 }}">
             Keine ({{ vote.results.none?.length || 0 }})
           </h4>
           <h4 gdColumn="{{ vote.answers.length + 1 }}">None</h4>
-          <!--                    <p gdColumn="{{vote.answers.length+1}}" *ngFor="let section of vote.results.none">{{section}}</p>-->
-    <!-- </div>
-        <mat-expansion-panel style="margin: 1rem -1rem -1rem -1rem;" class="mat-elevation-z0">
+          <p
+            gdColumn="{{ vote.answers.length + 1 }}"
+            *ngFor="let section of vote.results.none"
+          >
+            {{ section }}
+          </p>
+        </div>
+        <mat-expansion-panel
+          style="margin: 1rem -1rem -1rem -1rem"
+          class="mat-elevation-z0"
+        >
           <mat-expansion-panel-header>
-            <mat-panel-title>
-              Section Votes
-            </mat-panel-title>
+            <mat-panel-title> Section Votes </mat-panel-title>
           </mat-expansion-panel-header>
-          <div gdAuto="dense" gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)">
+          <div
+            gdAuto="dense"
+            gdColumns="repeat({{ vote.answers.length + 1 }}, 1fr)"
+          >
             <ng-container *ngFor="let answer of vote.answers; let i = index">
-              <!--                            <h4 gdColumn="{{i+1}}">{{answer.de}} ({{vote.results[answer.id]?.length || 0}})</h4>-->
-    <!--                            <h4 gdColumn="{{i+1}}">{{answer.en}}</h4>-->
-    <!-- <p gdColumn="{{ i + 1 }}" *ngFor="let section of vote.results[answer.id]">
+              <h4 gdColumn="{{ i + 1 }}">
+                {{ answer.de }} ({{ vote.results[answer.id]?.length || 0 }})
+              </h4>
+              <h4 gdColumn="{{ i + 1 }}">{{ answer.en }}</h4>
+              <p
+                gdColumn="{{ i + 1 }}"
+                *ngFor="let section of vote.results[answer.id]"
+              >
                 {{ section }}
               </p>
             </ng-container>
-            <!--                        <h4 gdColumn="{{vote.answers.length+1}}">Keine  ({{vote.results.none?.length || 0}})</h4>-->
-    <!--                        <h4 gdColumn="{{vote.answers.length+1}}">None</h4>-->
-    <!-- <p gdColumn="{{ vote.answers.length + 1 }}" *ngFor="let section of vote.results.none">
+            <h4 gdColumn="{{ vote.answers.length + 1 }}">
+              Keine ({{ vote.results.none?.length || 0 }})
+            </h4>
+            <h4 gdColumn="{{ vote.answers.length + 1 }}">None</h4>
+            <p
+              gdColumn="{{ vote.answers.length + 1 }}"
+              *ngFor="let section of vote.results.none"
+            >
               {{ section }}
             </p>
           </div>
-        </mat-expansion-panel> -->
-    <!-- </mat-card-content> -->
-    <!-- </mat-card> -->
+        </mat-expansion-panel>
+      </mat-card-content>
+    </mat-card>
   </div>
   <app-footer></app-footer>
 </div>

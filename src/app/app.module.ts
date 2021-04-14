@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 import { AngularFireModule } from '@angular/fire';
 import { FormsModule } from '@angular/forms';
+import { MarkdownModule } from 'ngx-markdown';
 import {
   AngularFireAnalyticsModule,
   ScreenTrackingService,
@@ -39,6 +40,7 @@ import { LinksPageComponent } from './links-page/links-page.component';
     SharedModule,
     FlexLayoutModule,
     FormsModule,
+    MarkdownModule.forRoot(),
     AppRoutingModule,
   ],
   declarations: [

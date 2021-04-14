@@ -28,6 +28,7 @@ const allSections = [
   'ESN Karlsruhe',
   'ESN Kiel',
   'ESN Koblenz',
+  'ESN Konstanz',
   'ESN Köln',
   'ESN LEI Greifswald',
   'ESN LEI Rostock',
@@ -43,7 +44,8 @@ const allSections = [
   'ESN Witten/Herdecke',
 ];
 const parsedAnswers = parse(
-  jetpack.read('question_answers_all_vol2.csv', 'utf8').trim(),
+  jetpack.read('question_answers_all_vol3.csv', 'utf8').trim(),
+  // jetpack.read('question_answers_all_vol2.csv', 'utf8').trim(),
   // jetpack.read('question_answers_all.csv', 'utf8').trim(),
   {
     skip_empty_lines: true,
@@ -76,12 +78,12 @@ for (const entry of parsedAnswers) {
   }
 }
 const exportFiles = [
-  'results_200000.csv',
-  'results_200005.csv',
-  'results_200010.csv',
-  'results_200011.csv',
-  'results_200015.csv',
-  'results_200020.csv',
+  'results-1.csv',
+  'results-2.csv',
+  'results-4.csv',
+  'results-5.csv',
+  'results-6.csv',
+  'results-7.csv',
 ];
 
 exportFiles.map((file) => {

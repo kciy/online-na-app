@@ -15,161 +15,21 @@
     </h1>
     <h2>13th - 14th February 2021</h2>
   </div>
-  <!-- <div class="img-container">
-    <img
-      src="../../assets/logo/seasonsfinale-logo-rect.png"
-      alt="Season's FiNAle Logo"
-      width="900px"
-      class="seas"
-    />
-  </div> -->
   <div class="card-container">
     <h2>To Do List</h2>
     <mat-accordion multi="true" class="accordion-container">
-      <mat-expansion-panel class="mep">
+      <mat-expansion-panel class="mep" *ngFor="let todo of todoItemList">
         <mat-expansion-panel-header>
-          <s
-            >Register as a participant (until 6th February 2021, 23:59 CEST).</s
-          >
+          <p *ngIf="todo.active">{{ todo.title }}</p>
+          <s *ngIf="!todo.active">{{ todo.title }}</s>
         </mat-expansion-panel-header>
         <div class="panel-content">
-          <p>
-            Use the registration link:
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScJadsCgwhVgu37kNHGvyg9qMbgq0Ksjht3ZJjuJ520W8QkqA/viewform"
-              target="_blank"
-              class="link"
-              >Take me there!</a
-            >
-          </p>
-        </div>
-      </mat-expansion-panel>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <s>Make an SOS proposal (until 6th February 2021, 23:59 CEST)</s>
-        </mat-expansion-panel-header>
-        <div class="panel-content">
-          <p>
-            Use this
-            <a
-              href="https://docs.google.com/document/d/1L7YlkLP5hwHJNa-YFVf94PcyeV7kQEnbiiafll9G6e0/edit"
-              target="_blank"
-              class="link"
-              >template</a
-            >
-            and hand in your SOS proposal by sending it via email to the CT (<a
-              href="mailto:np-chair@esn-germany.de"
-              target="_blank"
-              class="link"
-              >np-chair@esn-germany.de</a
-            >) <b>and</b> the NB (<a
-              href="mailto:board@esn-germany.de"
-              target="_blank"
-              class="link"
-              >board@esn-germany.de</a
-            >).
-          </p>
-        </div>
-      </mat-expansion-panel>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <s>Send your vote delegation (until 8th February 2021, 23:59 CEST)</s>
-        </mat-expansion-panel-header>
-        <div class="panel-content">
-          <p>
-            Send the following text to
-            <a
-              href="mailto:np-chair@esn-germany.de"
-              target="_blank"
-              class="link"
-              >np-chair@esn-germany.de</a
-            >:
-          </p>
-          <i
-            >"I, [Name of the section president], president of ESN [Name of the
-            section], delegate our vote for each and every vote that will occur
-            during the National Assembly "oN Air Vol. 3" from the 13th-14th of
-            February, 2021, to [Name of the delegate], [Member's position],
-            [Member's Email Address] of ESN [Name of the Section]."</i
-          >
-        </div>
-      </mat-expansion-panel>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          Join the social media channels!
-        </mat-expansion-panel-header>
-        <div class="panel-content">
-          <p>
-            <img
-              class="panel-content-icon"
-              width="17"
-              src="../../assets/logo/whatsapp.png"
-              alt="whatsapp"
-            />
-            WhatsApp spam group:
-            <a
-              href="https://chat.whatsapp.com/KWjUaCqntfYACsal5Enw96"
-              target="_blank"
-              class="link"
-              >Take me there!</a
-            >
-          </p>
-          <p>
-            <img
-              class="panel-content-icon"
-              width="17"
-              src="../../assets/logo/slack.png"
-              alt="slack"
-            />
-            onAirSlack:
-            <a
-              href=" https://esn-germany.slack.com/archives/C01CB1XHRBP"
-              target="_blank"
-              class="link"
-              >Take me there!</a
-            >
-          </p>
-        </div>
-      </mat-expansion-panel>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          Check out the social program!
-          <img
-            class="panel-content-icon abstand"
-            width="17"
-            src="../../assets/icons/tada.png"
-            alt="tada"
-          />
-        </mat-expansion-panel-header>
-        <div class="panel-content">
-          <p>
-            For Saturday and Sunday, we have prepared a
-            <a
-              href="https://gather.town/app/DFTVbEKL9uOLySQD/onair2021"
-              target="_blank"
-              class="link"
-              >gather.town</a
-            >
-            space for your social experience. Dive in and meet the other
-            participants! You will get the password during the stream. Approach
-            us via
-            <a
-              href="mailto:webmaster@esn-germany.de"
-              target="_blank"
-              class="link"
-              >webmaster@esn-germany.de</a
-            >
-            if you have any creative ideas for rooms or if you want to test it
-            beforehand.
-          </p>
-          <p>
-            Our main chair Theo will prepare a <b>pub quiz</b> for Saturday
-            night! Stay tuned for more detailed information.
-          </p>
+          <markdown [data]="todo.text">
+            <!-- {{ todo.text }} -->
+          </markdown>
         </div>
       </mat-expansion-panel>
     </mat-accordion>
-    <!-- <h2>Quick Links</h2> -->
     <mat-card class="mat-card-container">
       <mat-card-title-group>
         <mat-card-title>Chairing Team</mat-card-title>
