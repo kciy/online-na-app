@@ -19,6 +19,10 @@
       </mat-card-content>
     </mat-card>
   </div>
+  <h2 class="red">
+    This time, we are sad to tell you that we cannot display the current
+    election status here.
+  </h2>
   <div class="card-container">
     <mat-card class="card elections">
       <mat-card-title-group>
@@ -55,8 +59,8 @@
     fxLayoutGap="2rem"
     style="padding: 1rem; max-width: 1600px; margin: 0 auto"
   >
-    ----------------------------------------------
-    <h2>Election results</h2>
+    <!-- ----------------------------------------------
+    <h2>Election results</h2> -->
     <mat-card *ngFor="let vote of votes$ | async">
       <mat-card-title-group>
         <mat-card-title>{{ vote.question.en }}</mat-card-title>

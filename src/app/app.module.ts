@@ -15,14 +15,14 @@ import { DocumentsPageComponent } from './documents-page/documents-page.componen
 import { MemShipFeeCalcComponent } from './home-page/mem-ship-fee-calc/mem-ship-fee-calc.component';
 import { ImprintPageComponent } from './imprint-page/imprint-page.component';
 import { HttpClientModule } from '@angular/common/http';
-import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
+// import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 import { AngularFireModule } from '@angular/fire';
 import { FormsModule } from '@angular/forms';
 import { MarkdownModule } from 'ngx-markdown';
-import {
-  AngularFireAnalyticsModule,
-  ScreenTrackingService,
-} from '@angular/fire/analytics';
+// import {
+//   AngularFireAnalyticsModule,
+//   ScreenTrackingService,
+// } from '@angular/fire/analytics';
 import { FooterComponent } from './footer/footer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LinksPageComponent } from './links-page/links-page.component';
@@ -31,7 +31,7 @@ import { LinksPageComponent } from './links-page/links-page.component';
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAnalyticsModule,
+    // AngularFireAnalyticsModule,
     BrowserAnimationsModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
@@ -51,12 +51,12 @@ import { LinksPageComponent } from './links-page/links-page.component';
     VotingPageComponent,
     DocumentsPageComponent,
     ImprintPageComponent,
-    AgendaExplorerComponent,
+    // AgendaExplorerComponent,
     FooterComponent,
     MemShipFeeCalcComponent,
     LinksPageComponent,
   ],
-  providers: [ScreenTrackingService],
+  // providers: [ScreenTrackingService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
