@@ -19,10 +19,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AngularFireModule } from '@angular/fire';
 import { FormsModule } from '@angular/forms';
 import { MarkdownModule } from 'ngx-markdown';
-// import {
-//   AngularFireAnalyticsModule,
-//   ScreenTrackingService,
-// } from '@angular/fire/analytics';
+import {
+  AngularFireAnalyticsModule,
+  ScreenTrackingService,
+} from '@angular/fire/analytics';
 import { FooterComponent } from './footer/footer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LinksPageComponent } from './links-page/links-page.component';
@@ -31,7 +31,7 @@ import { LinksPageComponent } from './links-page/links-page.component';
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
-    // AngularFireAnalyticsModule,
+    AngularFireAnalyticsModule,
     BrowserAnimationsModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
@@ -56,7 +56,7 @@ import { LinksPageComponent } from './links-page/links-page.component';
     MemShipFeeCalcComponent,
     LinksPageComponent,
   ],
-  // providers: [ScreenTrackingService],
+  providers: [ScreenTrackingService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
