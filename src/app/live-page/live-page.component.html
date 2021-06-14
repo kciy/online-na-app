@@ -1,21 +1,15 @@
 <div class="page">
   <div class="vid-container">
-    <iframe
-      id="youtube-link"
-      width="560"
-      height="340"
-      src="https://www.youtube.com/embed/xu1bG41M8hg"
-      frameborder="0"
-      allowfullscreen
+    <iframe src="{{ mainInfoItem.streamLink }}" frameborder="0" allowfullscreen
       >This browser does not support iframe.</iframe
     >
   </div>
   <div class="tabs-container">
     <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
       <mat-tab label="Live Agenda" class="mat-tab contain">
-        <app-agenda-explorer></app-agenda-explorer>
+        <!-- <app-agenda-explorer></app-agenda-explorer> -->
       </mat-tab>
-      <mat-tab label="How to ask a question">
+      <mat-tab label="Speakers List Tool">
         <div class="guide">
           <p style="text-align: center">
             If you are a registered participant, you can login with your Galaxy
@@ -36,27 +30,33 @@
         <div class="guide" style="text-align: center">
           <h3>Meet the other listeners!</h3>
           <p>
+            Gather.town with the link provided (registered participants only)
+          </p>
+          <p>
+            WhatsApp
             <a
               href="https://chat.whatsapp.com/KWjUaCqntfYACsal5Enw96"
               class="footer-link link"
               target="_blank"
-              >WhatsApp Spam Group</a
+              >Spam Group</a
             >
           </p>
           <p>
+            Slack Channel
             <a
-              href="https://join.slack.com/share/zt-i28jayiu-VvkHInN7Cqk3yF6TRMEhmQ"
+              href="https://esn-germany.slack.com/archives/C01CB1XHRBP"
               target="_blank"
               class="footer-link link"
-              >Slack Channel #on-air-vol2-2020</a
+              >#online-na-participants</a
             >
           </p>
           <p>
+            Discord Server
             <a
               href="https://discordapp.com/invite/8yjMYMA"
               target="_blank"
               class="footer-link link"
-              >ESN GERmany Corona Shelter Discord Server</a
+              >ESN GERmany Corona Shelter</a
             >
           </p>
           <p>In person (with masks)</p>

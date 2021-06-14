@@ -12,22 +12,26 @@ import { LivePageComponent } from './live-page/live-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { VotingPageComponent } from './voting-page/voting-page.component';
 import { DocumentsPageComponent } from './documents-page/documents-page.component';
+import { MemShipFeeCalcComponent } from './home-page/mem-ship-fee-calc/mem-ship-fee-calc.component';
 import { ImprintPageComponent } from './imprint-page/imprint-page.component';
 import { HttpClientModule } from '@angular/common/http';
-import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
+// import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 import { AngularFireModule } from '@angular/fire';
-import {
-  AngularFireAnalyticsModule,
-  ScreenTrackingService,
-} from '@angular/fire/analytics';
+import { FormsModule } from '@angular/forms';
+import { MarkdownModule } from 'ngx-markdown';
+// import {
+//   AngularFireAnalyticsModule,
+//   ScreenTrackingService,
+// } from '@angular/fire/analytics';
 import { FooterComponent } from './footer/footer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { LinksPageComponent } from './links-page/links-page.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAnalyticsModule,
+    // AngularFireAnalyticsModule,
     BrowserAnimationsModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
@@ -35,6 +39,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     }),
     SharedModule,
     FlexLayoutModule,
+    FormsModule,
+    MarkdownModule.forRoot(),
     AppRoutingModule,
   ],
   declarations: [
@@ -45,10 +51,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     VotingPageComponent,
     DocumentsPageComponent,
     ImprintPageComponent,
-    AgendaExplorerComponent,
+    // AgendaExplorerComponent,
     FooterComponent,
+    MemShipFeeCalcComponent,
+    LinksPageComponent,
   ],
-  providers: [ScreenTrackingService],
+  // providers: [ScreenTrackingService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

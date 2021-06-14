@@ -14,36 +14,36 @@ export class VotingPageComponent {
   votes$: Observable<any[]>;
 
   constructor(http: HttpClient) {
-    const resultRequest = http
-      .get<any[]>('https://vote.esn-germany.de/results')
-      .pipe(
-        map((res) =>
-          res.map((result) => ({
-            ...result,
-            anonymized: result.anonymized === 'Y',
-            active: result.active === 'Y',
-            progress: (result.vote / result.total) * 100,
-          }))
-        )
-      );
-    this.votes$ = http.get<any[]>('/assets/data/results.json').pipe(
-      map((res) => res.filter((r) => r.results)),
-      tap(console.log)
-    );
-    this.results$ = timer(0, 10000).pipe(
-      switchMap(() => resultRequest),
-      map((results) => {
-        const extraResults = [
-          ...results.filter(
-            (res) => !res.name.toLowerCase().includes('overview')
-          ),
-        ];
-        extraResults.sort((a, b) => a.id - b.id);
-        return extraResults;
-      }),
-      shareReplay(1)
-    );
-    this.lastUpdate$ = this.results$.pipe(map(() => new Date()));
+    // const resultRequest = http
+    //   .get<any[]>('https://vote.esn-germany.de/results')
+    //   .pipe(
+    //     map((res) =>
+    //       res.map((result) => ({
+    //         ...result,
+    //         anonymized: result.anonymized === 'Y',
+    //         active: result.active === 'Y',
+    //         progress: (result.vote / result.total) * 100,
+    //       }))
+    //     )
+    //   );
+    // this.votes$ = http.get<any[]>('/assets/data/results.json').pipe(
+    //   map((res) => res.filter((r) => r.results)),
+    //   tap(console.log)
+    // );
+    // this.results$ = timer(0, 10000).pipe(
+    //   switchMap(() => resultRequest),
+    //   map((results) => {
+    //     const extraResults = [
+    //       ...results.filter(
+    //         (res) => !res.name.toLowerCase().includes('overview')
+    //       ),
+    //     ];
+    //     // extraResults.sort((a, b) => a.id - b.id);
+    //     return extraResults;
+    //   }),
+    //   shareReplay(1)
+    // );
+    // this.lastUpdate$ = this.results$.pipe(map(() => new Date()));
   }
 
   trackById(index: number, item: Result) {

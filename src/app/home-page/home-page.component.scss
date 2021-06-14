@@ -7,8 +7,13 @@
 }
 
 h1,
-h2 {
+h2,
+.mep span::after {
   color: var(--primary-text);
+}
+
+.abstand {
+  margin-left: 4px;
 }
 
 .img-container {
@@ -17,7 +22,7 @@ h2 {
 
 .img-container img {
   display: block;
-  margin: 0 auto;
+  margin: 32px auto;
 }
 
 .text-container {
@@ -44,6 +49,7 @@ h2 {
 .ct-container {
   margin: 0 auto;
   padding: 0 32px;
+  width: 50%;
 }
 
 .accordion-container {
@@ -93,10 +99,10 @@ h2 {
   .page {
     padding-top: 128px;
   }
-  .img-container img {
-    width: 60%;
-    height: 100%;
-  }
+  // .img-container img {
+  //   width: 90%;
+  //   height: 100%;
+  // }
 
   .card-container,
   .card-content {
@@ -110,5 +116,10 @@ h2 {
     margin: 4px 0;
     width: 90%;
     min-width: 0;
+  }
+
+  .ct-container {
+    padding: 0;
+    width: 100%;
   }
 }
