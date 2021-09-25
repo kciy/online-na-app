@@ -1,0 +1,62 @@
+<div class="page">
+  <div class="text-container-p">
+    <h1>All you need to know about NA Bayreuth</h1>
+  </div>
+  <div class="sub-page">
+    <div class="anchor-div">
+      Scroll down to these topics:
+      <ul>
+        <div *ngFor="let ni of newsItemList">
+          <li>
+            <a
+              [routerLink]="['/participants']"
+              fragment="{{ ni.Title }}"
+              class="anchor-list"
+              >{{ ni.Title }}</a
+            >
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div *ngFor="let ni of newsItemList" class="outer-div">
+      <div class="title-div">
+        <a id="{{ ni.Title }}" class="title-p title">
+          {{ ni.Title }}
+        </a>
+      </div>
+      <div class="content-div">
+        <figure *ngIf="ni.Image" class="figure">
+          <img
+            src="https://strapi.esn-germany.de{{ ni.Image.formats.medium.url }}"
+            alt="{{ ni.Image.alternativeText }}"
+            class="figure-div"
+          />
+          <figcaption class="figure-caption">
+            {{ ni.Image.caption }}
+          </figcaption>
+        </figure>
+        <p class="p-sub figure-div">
+          Last update: {{ ni.updated_at | date: 'medium' }} Uhr
+        </p>
+        <div class="news-color">
+          <markdown [data]="ni.Text"></markdown>
+          <div *ngIf="ni.Attachment" class="news-att">
+            <p>
+              Open link:
+              <a
+                href="https://strapi.esn-germany.de{{ ni.Attachment.url }}"
+                target="_blank"
+                rel="noopener"
+                class="anchor-list"
+              >
+                {{ ni.Attachment.name }}
+                <i class="material-icons icon"> call_made </i></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>

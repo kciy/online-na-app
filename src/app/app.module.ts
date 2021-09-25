@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, LOCALE_ID, NgModule } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localeDe from '@angular/common/locales/de';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +17,7 @@ import { DocumentsPageComponent } from './documents-page/documents-page.componen
 import { MemShipFeeCalcComponent } from './home-page/mem-ship-fee-calc/mem-ship-fee-calc.component';
 import { ImprintPageComponent } from './imprint-page/imprint-page.component';
 import { HttpClientModule } from '@angular/common/http';
-// import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
+import { AgendaExplorerComponent } from './live-page/agenda-explorer/agenda-explorer.component';
 import { AngularFireModule } from '@angular/fire';
 import { FormsModule } from '@angular/forms';
 import { MarkdownModule } from 'ngx-markdown';
@@ -26,6 +28,10 @@ import {
 import { FooterComponent } from './footer/footer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LinksPageComponent } from './links-page/links-page.component';
+import { ParticipantsPageComponent } from './participants-page/participants-page.component';
+import { MenuPageComponent } from './menu-page/menu-page.component';
+
+registerLocaleData(localeDe);
 
 @NgModule({
   imports: [
@@ -51,12 +57,20 @@ import { LinksPageComponent } from './links-page/links-page.component';
     VotingPageComponent,
     DocumentsPageComponent,
     ImprintPageComponent,
-    // AgendaExplorerComponent,
+    AgendaExplorerComponent,
     FooterComponent,
     MemShipFeeCalcComponent,
     LinksPageComponent,
+    ParticipantsPageComponent,
+    MenuPageComponent,
   ],
-  providers: [ScreenTrackingService],
+  providers: [
+    ScreenTrackingService,
+    {
+      provide: LOCALE_ID,
+      useValue: 'de-DE',
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
