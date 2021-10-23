@@ -1,0 +1,40 @@
+.outer-div {
+  background-color: var(--background-navbar);
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 74px;
+}
+
+.icon {
+  padding-right: 14px;
+  vertical-align: -7px;
+}
+
+.list-ul {
+  font-family: Kelson;
+  color: #f3f3f3;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.mobile-li:hover {
+  color: #9c9c9c;
+}
+
+.mobile-li {
+  padding: 1rem;
+  padding-left: 2rem;
+  border-bottom: 1px solid #f3f3f3;
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+.top-nav {
+  display: none !important;
+}

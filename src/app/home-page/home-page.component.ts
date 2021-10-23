@@ -25,8 +25,8 @@ interface MainInfoItem {
       };
     };
   };
-  streamLink: string;
-  agendaLink: string;
+  // streamLink: string;
+  // agendaLink: string;
   mainChairName: string;
   mainChairSection: string;
   mainChairText: string;

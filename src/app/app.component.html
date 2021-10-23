@@ -1,17 +1,45 @@
 <body>
   <div class="app-container">
     <div class="topnav">
-      <div class="topnav-centered">
+      <div id="burger" class="display-burger">
+        <div>
+          <a
+            routerLink="/"
+            routerLinkActive="active"
+            style="letter-spacing: 1px"
+            ><img
+              alt="ESN Star"
+              width="28"
+              class="icon"
+              src="assets/logo/ESN-star-RGB.png"
+            />Let's get physical!</a
+          >
+        </div>
+        <div>
+          <button
+            class="button-nav"
+            routerLink="/menu"
+            routerLinkActive="active"
+          >
+            <svg class="button-svg" viewBox="0 0 20 20">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="topnav-centered display-on-large">
         <a routerLink="/" routerLinkActive="active" style="letter-spacing: 1px"
           ><img
             alt="ESN Star"
             width="28"
             class="icon"
             src="assets/logo/ESN-star-RGB.png"
-          />Vacci<span style="color: #00aeef">NA</span>te
+          />Let's get physical!
         </a>
         <a routerLink="/live" routerLinkActive="active">Live</a>
-        <a routerLink="/voting" routerLinkActive="active">Voting Status</a>
+        <!-- <a routerLink="/voting" routerLinkActive="active">Voting Status</a> -->
+        <a routerLink="/participants" routerLinkActive="active">NA Bayreuth</a>
         <a routerLink="/documents" routerLinkActive="active">Documents</a>
         <a routerLink="/links" routerLinkActive="active">Links</a>
         <a routerLink="/imprint" routerLinkActive="active">Imprint</a>

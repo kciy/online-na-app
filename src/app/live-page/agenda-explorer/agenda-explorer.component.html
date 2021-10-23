@@ -9,12 +9,6 @@
       <mat-card-title class="not-live card-mobile-title title"
         ><b>{{ (currentItem | async)?.topic }}</b>
       </mat-card-title>
-      <mat-card-subtitle class="not-live"
-        >Speaker: {{ (currentItem | async)?.speaker }}</mat-card-subtitle
-      >
-      <mat-card-subtitle class="not-live"
-        >Type: {{ (currentItem | async)?.type }}</mat-card-subtitle
-      >
     </mat-card>
   </div>
   <div *ngIf="(nextItem | async)?.start">
@@ -28,12 +22,6 @@
       <mat-card-title class="not-live card-mobile-title title">
         <b>{{ (nextItem | async)?.topic }}</b>
       </mat-card-title>
-      <mat-card-subtitle class="not-live"
-        >Speaker: {{ (nextItem | async)?.speaker }}</mat-card-subtitle
-      >
-      <mat-card-subtitle class="not-live"
-        >Type: {{ (nextItem | async)?.type }}</mat-card-subtitle
-      >
     </mat-card>
   </div>
   <div *ngIf="(secondNextItem | async)?.start">
@@ -47,18 +35,12 @@
       <mat-card-title class="not-live card-mobile-title title"
         ><b>{{ (secondNextItem | async)?.topic }}</b>
       </mat-card-title>
-      <mat-card-subtitle class="not-live"
-        >Speaker: {{ (secondNextItem | async)?.speaker }}</mat-card-subtitle
-      >
-      <mat-card-subtitle class="not-live"
-        >Type: {{ (secondNextItem | async)?.type }}</mat-card-subtitle
-      >
     </mat-card>
   </div>
   <div class="link-container">
     <a
       class="agenda-link"
-      href="https://docs.google.com/spreadsheets/d/1QpZWkl5d3KTt-0BRvoCWnf6JQEWj00bY1x61pUI-BDU/edit#gid=1221187808"
+      href="https://docs.google.com/spreadsheets/d/1nSdx4GiD2S4yY38lmVGXnPkXaGrEcFIWDYTSHFQlAiI/edit#gid=1221187808"
       target="_blank"
       ><img
         id="agenda-img"

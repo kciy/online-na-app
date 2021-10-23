@@ -18,12 +18,16 @@ export const light: Theme = {
     '--card-border': '#f3f3f3',
     '--footer-text': '#010101',
 
+    '--title-text': '#2e3192',
+
     '--results-columns': '#add8e6',
     '--results-columns-text': '#010101',
 
     '--button-background': '#fcfcfc',
     '--button-background-hover': '#555555',
     '--button-border': '#555555',
+
+    '--esn-pink': '#ff4aa9',
   },
 };
 
@@ -38,9 +42,11 @@ export const dark: Theme = {
     '--primary-text': '#f3f3f3',
     '--primary-text-inverted': '#010101',
     '--primary-link': '#ffffff',
-    '--link': '#f47b20',
+    '--link': '#ff4aa9',
     '--card-border': '#8c8c8c',
     '--footer-text': '#f3f3f3',
+
+    '--title-text': '#f3f3f3',
 
     '--results-columns': '#98daff',
     '--results-columns-text': '#010101',
@@ -48,5 +54,7 @@ export const dark: Theme = {
     '--button-background': 'none',
     '--button-background-hover': '#eee',
     '--button-border': '#f3f3f3',
+
+    '--esn-pink': '#ec008c',
   },
 };
