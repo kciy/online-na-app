@@ -54,13 +54,13 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
     };
     const saturdayRequest = this.http
       .get<{ values: any[] }>(
-        'https://sheets.googleapis.com/v4/spreadsheets/1QzgcKyVVCk6DVu0O3nu0RDnfremqNiDjUvaj3NAbmnU/values/Sunday!A2:I28?key=AIzaSyArbU67uqLrk6MIKkSbBJEGU8K9EYjxNro',
+        'https://sheets.googleapis.com/v4/spreadsheets/1nSdx4GiD2S4yY38lmVGXnPkXaGrEcFIWDYTSHFQlAiI/values/Friday!A2:I36?key=AIzaSyArbU67uqLrk6MIKkSbBJEGU8K9EYjxNro',
         options
       )
       .pipe(retry(5));
     const sundayRequest = this.http
       .get<{ values: any[] }>(
-        'https://sheets.googleapis.com/v4/spreadsheets/1QzgcKyVVCk6DVu0O3nu0RDnfremqNiDjUvaj3NAbmnU/values/Sunday!A2:I28?key=AIzaSyArbU67uqLrk6MIKkSbBJEGU8K9EYjxNro',
+        'https://sheets.googleapis.com/v4/spreadsheets/1nSdx4GiD2S4yY38lmVGXnPkXaGrEcFIWDYTSHFQlAiI/values/Sunday!A2:I28?key=AIzaSyArbU67uqLrk6MIKkSbBJEGU8K9EYjxNro',
         options
       )
       .pipe(retry(5));
@@ -72,11 +72,11 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
           items.forEach((item) => {
             if (item[0]) {
               slots.push({
-                start: moment('20.06.2021', 'DD.MM.YYYY')
+                start: moment('29.10.2021', 'DD.MM.YYYY')
                   .add(index, 'day')
                   .hour(item[0].split(':')[0])
                   .minute(item[0].split(':')[1]),
-                end: moment('20.06.2021', 'DD.MM.YYYY')
+                end: moment('31.10.2021', 'DD.MM.YYYY')
                   .add(index, 'day')
                   .hour(item[1].split(':')[0])
                   .minute(item[1].split(':')[1]),
