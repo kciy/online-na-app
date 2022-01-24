@@ -18,7 +18,7 @@ const routes: Routes = [
     component: VotingPageComponent,
   },
   { path: 'documents', component: DocumentsPageComponent },
-  { path: 'participants', component: ParticipantsPageComponent },
+  // { path: 'participants', component: ParticipantsPageComponent },
   { path: 'menu', component: MenuPageComponent },
   { path: 'imprint', component: ImprintPageComponent },
   { path: '', pathMatch: 'full', component: HomePageComponent },

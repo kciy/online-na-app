@@ -28,9 +28,9 @@
         </mat-accordion>
       </div>
     </div>
-    <h2 class="sub-head">Proposals by the NB</h2>
+    <h2 class="sub-head">Applications NB 2022/23</h2>
     <div *ngFor="let item of documentsItemList">
-      <div *ngIf="item.category === 'Proposals by the NB'">
+      <div *ngIf="item.category === 'Applications NB 2022/23'">
         <mat-accordion class="accordion" multi="true">
           <mat-expansion-panel class="expansion">
             <mat-expansion-panel-header>
@@ -41,108 +41,12 @@
             <div>
               <p class="panel-content">
                 <markdown [data]="item.contentText"></markdown>
-                <br />
-                <a
-                  target="_blank"
-                  class="panel-link"
-                  href="https://strapi.esn-germany.de{{
-                    item.contentFile?.url
-                  }}"
-                  >Open <mat-icon class="icon">launch</mat-icon></a
-                >
               </p>
             </div>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
     </div>
-    <h2 class="sub-head">Proposals by the Sections</h2>
-    <div *ngFor="let item of documentsItemList">
-      <div *ngIf="item.category === 'Proposals by the Sections'">
-        <mat-accordion class="accordion" multi="true">
-          <mat-expansion-panel class="expansion">
-            <mat-expansion-panel-header>
-              <mat-panel-title>
-                {{ item.Title }}
-              </mat-panel-title>
-            </mat-expansion-panel-header>
-            <div>
-              <p class="panel-content">
-                <markdown [data]="item.contentText"></markdown>
-                <br />
-                <a
-                  target="_blank"
-                  class="panel-link"
-                  href="https://strapi.esn-germany.de{{
-                    item.contentFile?.url
-                  }}"
-                  >Open <mat-icon class="icon">launch</mat-icon></a
-                >
-              </p>
-            </div>
-          </mat-expansion-panel>
-        </mat-accordion>
-      </div>
-    </div>
-    <h2 class="sub-head">Proposals by the Restructuring WG</h2>
-    <div *ngFor="let item of documentsItemList">
-      <div *ngIf="item.category === 'Proposals by the Restructuring WG'">
-        <mat-accordion class="accordion" multi="true">
-          <mat-expansion-panel class="expansion">
-            <mat-expansion-panel-header>
-              <mat-panel-title>
-                {{ item.Title }}
-              </mat-panel-title>
-            </mat-expansion-panel-header>
-            <div>
-              <p class="panel-content">
-                <markdown [data]="item.contentText"></markdown>
-                <br />
-                <a
-                  target="_blank"
-                  class="panel-link"
-                  href="https://strapi.esn-germany.de{{
-                    item.contentFile?.url
-                  }}"
-                  >Open <mat-icon class="icon">launch</mat-icon></a
-                >
-              </p>
-            </div>
-          </mat-expansion-panel>
-        </mat-accordion>
-      </div>
-    </div>
-    <h2 class="sub-head">Accountability Reports Audit Board 2020/21</h2>
-    <div *ngFor="let item of documentsItemList">
-      <div
-        *ngIf="item.category === 'Accountability Reports Audit Board 2020/21'"
-      >
-        <mat-accordion class="accordion" multi="true">
-          <mat-expansion-panel class="expansion">
-            <mat-expansion-panel-header>
-              <mat-panel-title>
-                {{ item.Title }}
-              </mat-panel-title>
-            </mat-expansion-panel-header>
-            <div>
-              <p class="panel-content">
-                <markdown [data]="item.contentText"></markdown>
-                <br />
-                <a
-                  target="_blank"
-                  class="panel-link"
-                  href="https://strapi.esn-germany.de{{
-                    item.contentFile?.url
-                  }}"
-                  >Open <mat-icon class="icon">launch</mat-icon></a
-                >
-              </p>
-            </div>
-          </mat-expansion-panel>
-        </mat-accordion>
-      </div>
-    </div>
-
     <app-footer></app-footer>
   </div>
 </div>

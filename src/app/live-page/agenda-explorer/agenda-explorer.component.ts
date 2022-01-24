@@ -72,11 +72,11 @@ export class AgendaExplorerComponent implements OnInit, OnDestroy {
           items.forEach((item) => {
             if (item[0]) {
               slots.push({
-                start: moment('29.10.2021', 'DD.MM.YYYY')
+                start: moment('29.01.2022', 'DD.MM.YYYY')
                   .add(index, 'day')
                   .hour(item[0].split(':')[0])
                   .minute(item[0].split(':')[1]),
-                end: moment('31.10.2021', 'DD.MM.YYYY')
+                end: moment('30.01.2022', 'DD.MM.YYYY')
                   .add(index, 'day')
                   .hour(item[1].split(':')[0])
                   .minute(item[1].split(':')[1]),

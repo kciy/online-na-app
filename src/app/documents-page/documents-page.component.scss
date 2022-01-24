@@ -30,9 +30,11 @@ h2 {
 }
 
 .mat-expansion-panel,
+.mat-expansion-panel-header,
 .mat-card,
-.mat-card-subtitle {
-  color: var(--primary-text);
+.mat-card-subtitle,
+.mat-expansion-indicator {
+  color: var(--primary-text) !important;
   background: var(--background-card);
 }
 
